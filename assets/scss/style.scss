@@ -1,0 +1,64 @@
+@import '../../node_modules/normalize-scss/sass/normalize/_import-now';
+
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+$blue: #2d68b2;
+$light-blue: #9ab8ff;
+$dark-blue: #2b3087;
+
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* ==========================================================================
+   Globals
+   ========================================================================== */
+
+body {
+    background: $blue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/**
+ * Layout
+ */
+.site-width {
+    margin: 0 auto;
+    width: 95%;
+    @include clearfix;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.site-header {
+    padding: 20px 0;
+    background: white;
+}
+.site-header__logo-symbol {
+    max-width: 44px;
+}
+
+.site-header__mobile-menu-button {
+    background: $dark-blue;
+    border: none;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}

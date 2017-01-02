@@ -1,0 +1,23 @@
+{
+  "name": "algask17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanledin/algask17.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanledin/algask17/issues"
+  },
+  "homepage": "https://github.com/stefanledin/algask17#readme",
+  "dependencies": {
+    "normalize-scss": "^6.0.0"
+  }
+}
