@@ -24,8 +24,14 @@ $dark-blue: #2b3087;
    Globals
    ========================================================================== */
 
+html, body {
+    height: 100%;
+}
+
 body {
     background: $blue;
+    font-size: 1em;
+    line-height: 1.2;
 }
 
 img {
@@ -42,16 +48,96 @@ img {
     @include clearfix;
 }
 
+.section-wrapper {
+    margin: 1em 0;
+}
+
+.inner {
+    padding: 10px;
+}
+
+.flex {
+  display: flex;
+}
+.vertical-center {
+    align-items: center;
+}
+
+/* ==========================================================================
+   Off-canvas
+   ========================================================================== */
+
+.page-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.mobile-menu {
+    position: fixed;
+    z-index: 2;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: $light-blue;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    transform: translateX(-300px);
+    overflow-y: auto;
+}
+.page-content {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+#canvas-content-overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
+
+body.mobile-menu-is-open {
+    .mobile-menu {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .page-content {
+        -webkit-transform: translateX(300px);
+        -ms-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+    #canvas-content-overlay {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
 
 .site-header {
-    padding: 20px 0;
+    padding: 10px 0;
     background: white;
+}
+
+.site-header__logo-wrapper {
+    display: flex;
+    flex: 1;
 }
 .site-header__logo-symbol {
     max-width: 44px;
+    margin-right: 1em;
 }
 
 .site-header__mobile-menu-button {
@@ -61,4 +147,37 @@ img {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+}
+
+/* ==========================================================================
+   Artikellista
+   ========================================================================== */
+
+.article-list {
+    background: white;
+}
+.article-list__article {
+    padding: 1em;
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+.article-list__article__title {
+    margin: 0;
+    line-height: 1;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
+.article-list__article__header {
+    time {
+        margin: 0 0 .5em 0;
+        display: block;
+        font-size: .8em;
+    }
+}
+.article-list__separator {
+    border-top: 1px solid $light-blue;
+    border-bottom: none;
 }
