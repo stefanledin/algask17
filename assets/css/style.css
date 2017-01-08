@@ -460,7 +460,7 @@ img {
   align-items: center; }
 
 /* ==========================================================================
-   Off-canvas
+    Mobilmeny
    ========================================================================== */
 .page-wrapper {
   position: relative;
@@ -475,15 +475,16 @@ img {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: #9ab8ff;
+  background: #2d68b2;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 250px;
   height: 100%;
-  -webkit-transform: translateX(-300px);
-  -ms-transform: translateX(-300px);
-  transform: translateX(-300px);
-  overflow-y: auto; }
+  -webkit-transform: translateX(-250px);
+  -ms-transform: translateX(-250px);
+  transform: translateX(-250px);
+  overflow-y: auto;
+  box-shadow: inset -1px 0 5px black; }
 
 .page-content {
   -webkit-transition: -webkit-transform 0.5s ease;
@@ -503,12 +504,30 @@ body.mobile-menu-is-open .mobile-menu {
   -ms-transform: translate(0, 0);
   transform: translate(0, 0); }
 body.mobile-menu-is-open .page-content {
-  -webkit-transform: translateX(300px);
-  -ms-transform: translateX(300px);
-  transform: translateX(300px); }
+  -webkit-transform: translateX(250px);
+  -ms-transform: translateX(250px);
+  transform: translateX(250px); }
 body.mobile-menu-is-open #canvas-content-overlay {
   width: 100%;
   height: 100%; }
+
+.mobile-menu__items-list ul {
+  margin: 0;
+  padding: 0; }
+.mobile-menu__items-list > ul {
+  border-bottom: 1px solid white; }
+.mobile-menu__items-list li {
+  list-style: none;
+  line-height: 1; }
+.mobile-menu__items-list a {
+  border-top: 1px solid white;
+  padding: .5em 0;
+  color: white;
+  text-decoration: none;
+  display: block; }
+
+.mobile-menu__items-list__sub-menu a {
+  padding-left: 1em; }
 
 /* ==========================================================================
    Header
@@ -526,12 +545,17 @@ body.mobile-menu-is-open #canvas-content-overlay {
   margin-right: 1em; }
 
 .site-header__mobile-menu-button {
+  padding: .5em;
   background: #2b3087;
   border: none;
   color: #fff;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px; }
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  .site-header__mobile-menu-button svg {
+    margin-right: .5em; }
+    .site-header__mobile-menu-button svg path {
+      fill: white; }
 
 /* ==========================================================================
    Artikellista
