@@ -31,12 +31,30 @@ html, body {
 body {
     background: $blue;
     font-size: 1em;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+/**
+ * Knappar och länkar
+ */
+button,
+.button {
+    padding: .5em;
+    background: $dark-blue;
+    border: none;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.button--white {
+    background: white;
+    color: $dark-blue;
 }
 
 /**
@@ -92,6 +110,10 @@ $off-canvas-width: 250px;
     overflow-y: auto;
     box-shadow: inset -1px 0 5px black;
 }
+.mobile-menu__close-button {
+    margin-bottom: .5em;
+    float: right;
+}
 .page-content {
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: -webkit-transform 0.5s ease;
@@ -102,7 +124,7 @@ $off-canvas-width: 250px;
 }
 #canvas-content-overlay {
     position: fixed;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .75);
     z-index: 1;
 }
 
@@ -125,6 +147,7 @@ body.mobile-menu-is-open {
 }
 
 .mobile-menu__items-list {
+    clear: both;
     ul {
         margin: 0;
         padding: 0;
@@ -169,13 +192,7 @@ body.mobile-menu-is-open {
 }
 
 .site-header__mobile-menu-button {
-    padding: .5em;
-    background: $dark-blue;
-    border: none;
-    color: #fff;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    
     svg {
         margin-right: .5em;
         path {

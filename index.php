@@ -15,7 +15,7 @@
         <div class="page-wrapper">
             <div class="mobile-menu">
                 <div class="inner">
-                    <button class="mobile-menu__close-button">Stäng</button>
+                    <button class="button--white mobile-menu__close-button">Stäng</button>
                     <nav class="mobile-menu__items-list">
                         <ul>
                         <?php foreach ( main_menu_items() as $menu_item ) : ?>
@@ -25,7 +25,7 @@
                                     <ul class="mobile-menu__items-list__sub-menu">
                                     <?php foreach ( child_pages( $menu_item->object_id ) as $child_page ) : ?>
                                         <li>
-                                            <a href="#">
+                                            <a href="<?php echo get_permalink( $child_page->ID );?>">
                                                 <?php echo $child_page->post_title; ?>
                                             </a>
                                         </li>                                            
