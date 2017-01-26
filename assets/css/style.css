@@ -580,7 +580,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
   background: white; }
 
 .article-list__article {
-  padding: 1em; }
+  padding: .5em 1em; }
   .article-list__article p:last-of-type {
     margin-bottom: 0; }
 
@@ -599,3 +599,5 @@ body.mobile-menu-is-open #canvas-content-overlay {
 .article-list__separator {
   border-top: 1px solid #9ab8ff;
   border-bottom: none; }
+
+/*# sourceMappingURL=style.css.map */
