@@ -42,7 +42,7 @@
             <div class="page-content">
                 <div id="canvas-content-overlay"></div>
                 
-                <header class="site-header">
+                <header class="site-header has-shadow">
                     <div class="site-width flex vertical-center">
                         <div class="site-header__logo-wrapper vertical-center">
                             <div class="site-header__logo-symbol">
@@ -73,7 +73,7 @@
 
                 <section class="section-wrapper">
                     <div class="site-width">
-                        <div class="article-list">
+                        <div class="article-list has-shadow">
                             <?php if ( have_posts() ) : $i = 0; while ( have_posts() ) : the_post(); ?>
                             <article class="article-list__article">
                                 <header class="article-list__article__header">
@@ -90,8 +90,33 @@
                             <hr class="article-list__separator">
                             <?php $i++; endwhile; endif; ?>
                         </div>
+                        <aside class="sidebar-wrapper">
+                            <div class="sidebar has-shadow">
+                                <div class="inner">
+                                    <div class="widget">
+                                        <h3 class="widget-title">Årsmöte</h3>
+                                        <p>Onsdagen den 8 mars välkomnar vi alla medlemmar till klubbens årsmöte. Det hålls klockan 18.30 på Älgvallen. Välkomna!</p>
+                                        <a href="#" class="button">Läs mer</a>
+                                    </div>
+                                    <div class="widget">
+                                        <h3 class="widget-title">Jubileumsboken</h3>
+                                        <img src="http://placehold.it/800x500">
+                                        <a href="#" class="button">Köp här</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
                     </div>
                 </section>
+
+                <footer class="section-wrapper">
+                    <div class="site-width">
+                        <picture>
+                            <source type="image/svg+xml" srcset="<?php echo asset('img/algask-klubbmarke.svg');?>">
+                            <img class="center-block" src="<?php echo asset('img/algask-klubbmarke.png');?>" alt="Älgå Sportklubb">
+                        </picture>
+                    </div>
+                </footer>
 
             </div>
         </div>

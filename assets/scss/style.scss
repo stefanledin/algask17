@@ -48,6 +48,7 @@ button,
     background: $dark-blue;
     border: none;
     color: #fff;
+    text-decoration: none;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -79,6 +80,17 @@ button,
 }
 .vertical-center {
     align-items: center;
+}
+.has-shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+/**
+ * Helpers
+ */
+.center-block {
+    margin: 0 auto;
+    display: block;
 }
 
 /* ==========================================================================
@@ -161,7 +173,7 @@ body.mobile-menu-is-open {
     }
     a {
         border-top: 1px solid white;
-        padding: .5em 0;
+        padding: .8em 0;
         color: white;
         text-decoration: none;
         display: block;
@@ -232,4 +244,18 @@ body.mobile-menu-is-open {
 .article-list__separator {
     border-top: 1px solid $light-blue;
     border-bottom: none;
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+.sidebar-wrapper {
+
+}
+.sidebar {
+    background: white;
+}
+
+.widget {
+    background: $light-blue;
 }
