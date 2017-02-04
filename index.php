@@ -93,15 +93,19 @@
                         <aside class="sidebar-wrapper">
                             <div class="sidebar has-shadow">
                                 <div class="inner">
-                                    <div class="widget">
-                                        <h3 class="widget-title">Årsmöte</h3>
-                                        <p>Onsdagen den 8 mars välkomnar vi alla medlemmar till klubbens årsmöte. Det hålls klockan 18.30 på Älgvallen. Välkomna!</p>
-                                        <a href="#" class="button">Läs mer</a>
+                                    <div class="widget widget--light-blue">
+                                        <div class="widget__inner">
+                                            <h3 class="widget-title">Årsmöte</h3>
+                                            <p>Onsdagen den 8 mars välkomnar vi alla medlemmar till klubbens årsmöte. Det hålls klockan 18.30 på Älgvallen. Välkomna!</p>
+                                            <a href="#" class="button">Läs mer</a>
+                                        </div>
                                     </div>
-                                    <div class="widget">
-                                        <h3 class="widget-title">Jubileumsboken</h3>
-                                        <img src="http://placehold.it/800x500">
-                                        <a href="#" class="button">Köp här</a>
+                                    <div class="widget widget--grey">
+                                        <div class="widget__inner">
+                                            <h3 class="widget-title">Jubileumsboken</h3>
+                                            <img src="http://placehold.it/800x500">
+                                            <a href="#" class="button">Köp här</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
