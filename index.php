@@ -71,42 +71,45 @@
                     </div>
                 </header>
 
-                <section class="section-wrapper">
+                <section class="">
                     <div class="site-width">
-                        <div class="article-list has-shadow">
-                            <?php if ( have_posts() ) : $i = 0; while ( have_posts() ) : the_post(); ?>
-                            <article class="article-list__article">
-                                <header class="article-list__article__header">
-                                    <time><?php the_time( 'Y-m-d H:i' ); ?></time>
-                                    <h2 class="article-list__article__title">
-                                        <a href="<?php the_permalink();?>"><?php the_title();?></a>
-                                    </h2>
-                                </header>
-                                <?php if ( $i == 0 ) : ?>
-                                    <?php the_post_thumbnail( ); ?>
-                                    <?php the_content(); ?>
-                                <?php endif; ?>
-                            </article>
-                            <hr class="article-list__separator">
-                            <?php $i++; endwhile; endif; ?>
-                        </div>
-                        <aside class="sidebar-wrapper">
-                            <div class="sidebar has-shadow">
+                        <main class="main-column section-wrapper">
+                            <div class="article-list has-shadow">
+                                <?php if ( have_posts() ) : $i = 0; while ( have_posts() ) : the_post(); ?>
+                                <article class="article-list__article">
+                                    <div class="inner">
+                                        <header class="article-list__article__header">
+                                            <time><?php the_time( 'Y-m-d H:i' ); ?></time>
+                                            <h2 class="article-list__article__title">
+                                                <a href="<?php the_permalink();?>"><?php the_title();?></a>
+                                            </h2>
+                                        </header>
+                                        <?php if ( $i == 0 ) : ?>
+                                            <?php the_post_thumbnail( ); ?>
+                                            <?php the_content(); ?>
+                                        <?php endif; ?>
+                                    </div>
+                                </article>
+                                <hr class="article-list__separator">
+                                <?php $i++; endwhile; endif; ?>
                                 <div class="inner">
-                                    <div class="widget widget--light-blue">
-                                        <div class="widget__inner">
-                                            <h3 class="widget-title">Årsmöte</h3>
-                                            <p>Onsdagen den 8 mars välkomnar vi alla medlemmar till klubbens årsmöte. Det hålls klockan 18.30 på Älgvallen. Välkomna!</p>
-                                            <a href="#" class="button">Läs mer</a>
-                                        </div>
-                                    </div>
-                                    <div class="widget widget--grey">
-                                        <div class="widget__inner">
-                                            <h3 class="widget-title">Jubileumsboken</h3>
-                                            <img src="http://placehold.it/800x500">
-                                            <a href="#" class="button">Köp här</a>
-                                        </div>
-                                    </div>
+                                    <a href="#" class="button">Nyhetsarkiv</a>
+                                </div>
+                            </div>
+                        </main>
+                        <aside class="sidebar section-wrapper">
+                            <div class="widget widget--light-blue has-shadow">
+                                <div class="widget__inner">
+                                    <h3 class="widget__title">Årsmöte</h3>
+                                    <p>Onsdagen den 8 mars välkomnar vi alla medlemmar till klubbens årsmöte. Det hålls klockan 18.30 på Älgvallen. Välkomna!</p>
+                                    <a href="#" class="widget__cta button">Läs mer</a>
+                                </div>
+                            </div>
+                            <div class="widget widget--grey has-shadow">
+                                <div class="widget__inner">
+                                    <h3 class="widget__title">Jubileumsboken</h3>
+                                    <img src="http://placehold.it/800x500">
+                                    <a href="#" class="widget__cta button">Köp här</a>
                                 </div>
                             </div>
                         </aside>

@@ -5,7 +5,7 @@
    ========================================================================== */
 
 $blue: #2d68b2;
-$light-blue: #9ab8ff;
+$light-blue: #cddcff;
 $dark-blue: #2b3087;
 $grey: #fcfcfc;
 
@@ -14,11 +14,11 @@ $grey: #fcfcfc;
    ========================================================================== */
 
 @mixin clearfix {
-  &:after {
+    &:after {
     content: "";
     display: table;
     clear: both;
-  }
+    }
 }
 
 /* ==========================================================================
@@ -71,6 +71,7 @@ button,
 .site-width {
     margin: 0 auto;
     width: 95%;
+    max-width: 1120px;
     @include clearfix;
 }
 
@@ -79,7 +80,7 @@ button,
 }
 
 .inner {
-    padding: 10px;
+    padding: .5em 1em;
 }
 
 .flex {
@@ -228,7 +229,6 @@ body.mobile-menu-is-open {
     background: white;
 }
 .article-list__article {
-    padding: .5em 1em;
     p:last-of-type {
         margin-bottom: 0;
     }
@@ -256,24 +256,43 @@ body.mobile-menu-is-open {
 /* ==========================================================================
    Sidebar
    ========================================================================== */
-.sidebar-wrapper {
-
-}
 .sidebar {
-    background: white;
+    //
 }
 
+/* Block */
 .widget {
     margin-bottom: 1em;
     overflow: hidden;
+    img {
+        margin: 0 0 .5em 0;
+    }
+    p {
+        margin: 0;
+    }
+}
+/* Elements */
+.widget__title {
+    margin: 0 0 0.727em;
+    font-size: 22px;
 }
 .widget__inner {
-    padding: 1em;
+    @extend .inner;
 }
+.widget__cta {
+    margin-top: .5em;
+}
+
+/* Modifiers */
 .widget--light-blue {
     background: $light-blue;
+    .widget__title {
+
+    }
 }
 .widget--grey {
     background: $grey;
     border: 1px solid #ccc;
 }
+
+@import 'mq';
