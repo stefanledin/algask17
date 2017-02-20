@@ -1,5 +1,26 @@
 @media (min-width: 767px) {
 
+    /* ==========================================================================
+       Globals
+       ========================================================================== */
+    
+    /**
+     * Typografi
+     */
+    h1, .h1 {
+        margin: 0.333em 0;
+        font-size: 3em;
+    }
+    h2, .h2 {
+        font-size: 2em;
+    }
+    h3, .h3 {
+        font-size: 1em;
+    }
+
+    /**
+     * Layout
+     */
     .section-wrapper {
         margin: 100px 0 1em 0;
     }
@@ -8,6 +29,56 @@
         width: 68.75%;
         float: left;
     }
+    
+    /* ==========================================================================
+       Header
+       ========================================================================== */
+    
+    .site-header {
+        padding-bottom: 0;
+    }
+
+    /**
+     * Logga
+     */
+    .site-header__logo-wrapper {
+        margin: .5em 0;
+    }
+    .site-header__logo-symbol {
+        max-width: 80px;
+    }
+    .site-header__logo-text-short {
+        display: none;
+    }
+    .site-header__logo-text-long {
+        display: block;
+    }
+    
+    /**
+     * Knapp för mobilmeny
+     */
+    .site-header__mobile-menu-button {
+        display: none;
+    }
+
+    /**
+     * Huvudmeny
+     */
+     .main-menu {
+        display: block;
+     }
+
+     /**
+      * Sekundärmeny
+      */
+    .secondary-menu {
+        display: block;
+    }
+
+
+    /* ==========================================================================
+       Sidebar
+       ========================================================================== */
 
     .sidebar {
         width: 28.75%;

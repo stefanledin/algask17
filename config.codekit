@@ -42,13 +42,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/Älgå Sportklubb.png": {
+	"\/assets\/img\/algasportklubb-klubbmarke-text.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7564,
-		"inputAbbreviatedPath": "\/assets\/img\/Älgå Sportklubb.png",
-		"outputAbbreviatedPath": "\/assets\/img\/Älgå Sportklubb.png",
+		"inputAbbreviatedPath": "\/assets\/img\/algasportklubb-klubbmarke-text.png",
+		"outputAbbreviatedPath": "\/assets\/img\/algasportklubb-klubbmarke-text.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -245,6 +245,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/single.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/single.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/style.css": {
 		"fileType": 16,
