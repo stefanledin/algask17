@@ -435,14 +435,16 @@ body {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  display: block; }
 
 /**
  * Typografi
  */
 h1, .h1 {
   font-size: 2em;
-  margin: .5em; }
+  margin: .5em 0;
+  line-height: 1.2; }
 
 h2, .h2 {
   font-size: 1.5em; }
@@ -712,6 +714,39 @@ body.mobile-menu-is-open #canvas-content-overlay {
   border-bottom: none; }
 
 /* ==========================================================================
+   Artikel
+   ========================================================================== */
+.article__featured-image-wrapper {
+  margin: 0; }
+
+.article__title {
+  text-align: center; }
+
+.article__preamble p {
+  font-size: 1.25em; }
+
+.article__body {
+  padding-bottom: 1em; }
+
+.article__inner {
+  padding: 0 1em; }
+
+.article__footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.2); }
+
+.article__when-published {
+  display: block; }
+
+.article__metadata {
+  font-size: 0.875em;
+  /* dt {
+      float: left;
+  }
+  dd {
+      float: left;
+  } */ }
+
+/* ==========================================================================
    Sidebar
    ========================================================================== */
 /* Block */
@@ -810,6 +845,13 @@ body.mobile-menu-is-open #canvas-content-overlay {
    */
   .secondary-menu {
     display: block; }
+
+  /* ==========================================================================
+     Artikel
+     ========================================================================== */
+  .article__body {
+    margin: 0 auto;
+    max-width: 700px; }
 
   /* ==========================================================================
      Sidebar
