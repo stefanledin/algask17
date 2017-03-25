@@ -511,6 +511,7 @@ button,
   margin: 1em 0; }
 
 main {
+  overflow: hidden;
   background: white; }
 
 .wide-column {
@@ -738,13 +739,16 @@ body.mobile-menu-is-open #canvas-content-overlay {
   display: block; }
 
 .article__metadata {
-  font-size: 0.875em;
-  /* dt {
-      float: left;
-  }
-  dd {
-      float: left;
-  } */ }
+  margin: 1em 0;
+  padding: 0;
+  font-size: 0.875em; }
+  .article__metadata li {
+    margin: .5em 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center; }
+    .article__metadata li svg {
+      margin-right: .5em; }
 
 /* ==========================================================================
    Sidebar
