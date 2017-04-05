@@ -34,6 +34,11 @@
                                 <?php endif; ?>
                             </li>
                         <?php endforeach; ?>
+                        <?php foreach ( secondary_menu_items() as $secondary_menu_item ) : ?>
+                            <li>
+                                <a href="<?php echo $secondary_menu_item->url;?>"><?php echo $secondary_menu_item->title; ?></a>
+                            </li>
+                        <?php endforeach; ?>
                         </ul>
                     </nav>
                 </div>

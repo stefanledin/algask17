@@ -26,6 +26,30 @@ function child_pages( $ID ) {
     ) );
 }
 
+class ordbild_menu {
+
+    function __construct() {
+
+    }
+
+}
+
+function get_sub_menu( $parent_id ) {
+    $child_pages = child_pages( $parent_id );
+    if ( ! $child_pages ) return false;
+    $html = '<ul>';
+    foreach ( $child_pages as $index => $child_page ) {
+        $html .= '<li class="sub-menu__item level-'.$index.'">';
+            $html .= '<a href="'.get_permalink( $child_page->ID ).'">'.$child_page->post_title.'</a>';
+            if ( $child_page_children = child_pages( $child_page->ID ) ) {
+                $html .= get_sub_menu( $child_page->ID );
+            }
+        $html .= '</li>';
+    }
+    $html .= '</ul>';
+    return $html;
+}
+
 function menu_item_classes( $menu_item ) {
     global $post;
     return ( 

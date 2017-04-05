@@ -34,3 +34,15 @@ function email_share_link( $url = null ) {
 function get_permalink_by_path ( $path ) {
     return get_permalink( get_page_by_path( $path ) );
 }
+
+/**
+ * Returnerar ID:t till föräldersidan i trädet.
+ */
+function get_page_parent_id( $post ) {
+    $post_ancestors = get_post_ancestors( $post );
+    $parent_id = end( $post_ancestors );
+    if ( ! $parent_id ) {
+        $parent_id = $post->ID;
+    }
+    return $parent_id;
+}

@@ -1,6 +1,10 @@
-<?php get_header(); ?>
+<?php 
+/*
+Template name: Startsida
+ */
+get_header(); ?>
 
-<main class="main-column section-wrapper">
+<main class="main-column left section-wrapper">
     <div class="article-list has-shadow">
         <?php
         $latest_news = get_posts( array(
@@ -29,7 +33,7 @@
         </div>
     </div>
 </main>
-<aside class="sidebar section-wrapper">
+<aside class="sidebar right section-wrapper">
     <div class="widget widget--light-blue has-shadow">
         <div class="widget__inner">
             <h3 class="widget__title">Årsmöte</h3>

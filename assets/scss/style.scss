@@ -6,7 +6,7 @@
 
 $blue: #2d68b2;
 $light-blue: #cddcff;
-$dark-blue: #2b3087;
+$dark-blue: #0A3B7B;
 $grey: #fcfcfc;
 
 /* ==========================================================================
@@ -67,6 +67,7 @@ a:hover {
 }
 
 button,
+a.button,
 .button {
     padding: .5em;
     display: inline-block;
@@ -157,6 +158,7 @@ main {
 
 $off-canvas-width: 250px;
 .page-wrapper {
+    min-height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -185,6 +187,7 @@ $off-canvas-width: 250px;
     float: right;
 }
 .page-content {
+    height: 100%;
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
@@ -345,6 +348,41 @@ body.mobile-menu-is-open {
 }
 
 /* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer-menu {}
+.footer-menu__main-menu {
+    @include clearfix;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+.footer-menu__main-menu > li {
+    margin-bottom: 1em;
+    list-style: none;
+    display: block;
+    width: 50%;
+    float: left;
+}
+.footer-menu__main-menu a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.footer-menu__main-menu__sub-menu {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style-type: none;
+    }
+    a {
+        font-size: 0.875em;
+    }
+}
+
+/* ==========================================================================
    Artikellista
    ========================================================================== */
 
@@ -415,12 +453,79 @@ body.mobile-menu-is-open {
     }
 }
 
+/* ==========================================================================
+   Page.php
+   ========================================================================== */
+
+/* Breadcrumbs */
+.breadcrumbs {
+    margin-top: 10px;
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+        font-size: 0.875em;
+        color: white;
+        &:after {
+            content: ' »';
+        }
+        &:last-child {
+            &:after {
+                content: '';
+            }
+        }
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
 
 /* ==========================================================================
    Sidebar
    ========================================================================== */
 .sidebar {
     //
+}
+
+/* Undermeny */
+.sub-menu {
+    display: none;
+}
+.sub-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.sub-menu__item {
+    background: white;
+    list-style: none;
+    border-bottom: 1px solid $light-blue;
+}
+.sub-menu__item--header {
+    border-bottom: none;
+    .button.button--dark {
+        font-size: 1.125em;
+        &:hover {
+            color: white;
+            background: $blue;
+        }
+    }
+}
+.sub-menu__item .button {
+    display: block;
+    text-decoration: none;
+    color: $light-blue;
+    &:hover {
+        color: $dark-blue;
+        background: $light-blue;
+        box-shadow: none;
+    }
 }
 
 /* Block */

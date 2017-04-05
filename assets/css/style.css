@@ -459,9 +459,10 @@ a, a:visited {
   color: #2d68b2; }
 
 a:hover {
-  color: #2b3087; }
+  color: #0A3B7B; }
 
 button,
+a.button,
 .button {
   padding: .5em;
   display: inline-block;
@@ -472,26 +473,32 @@ button,
   transition: box-shadow 0.2s ease-in-out;
   cursor: pointer; }
   button:hover,
+  a.button:hover,
   .button:hover {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
   button.button--white,
+  a.button.button--white,
   .button.button--white {
     background: white;
-    color: #2b3087; }
+    color: #0A3B7B; }
   button.button--dark,
+  a.button.button--dark,
   .button.button--dark {
-    background: #2b3087;
+    background: #0A3B7B;
     color: white; }
   button.button--large,
+  a.button.button--large,
   .button.button--large {
     padding: .35em 1em;
     font-size: 1.125em; }
   button.button--is-icon svg,
+  a.button.button--is-icon svg,
   .button.button--is-icon svg {
     vertical-align: text-bottom;
     width: 20px;
     height: 20px; }
   button.button--is-icon path,
+  a.button.button--is-icon path,
   .button.button--is-icon path {
     fill: white; }
 
@@ -540,6 +547,7 @@ main {
     Mobilmeny
    ========================================================================== */
 .page-wrapper {
+  min-height: 100%;
   position: relative;
   overflow: hidden; }
 
@@ -568,6 +576,7 @@ main {
   float: right; }
 
 .page-content {
+  height: 100%;
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -659,7 +668,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
 .main-menu__social-links {
   float: right; }
   .main-menu__social-links .button:hover {
-    background: #2b3087; }
+    background: #0A3B7B; }
 
 .main-menu__item:first-child a {
   border-left: 0; }
@@ -691,6 +700,38 @@ body.mobile-menu-is-open #canvas-content-overlay {
     content: ''; }
   .secondary-menu__item a {
     text-decoration: none; }
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.footer-menu__main-menu {
+  margin: 0 0 1em 0;
+  padding: 0; }
+  .footer-menu__main-menu:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.footer-menu__main-menu > li {
+  margin-bottom: 1em;
+  list-style: none;
+  display: block;
+  width: 50%;
+  float: left; }
+
+.footer-menu__main-menu a {
+  color: white;
+  text-decoration: none; }
+  .footer-menu__main-menu a:hover {
+    text-decoration: underline; }
+
+.footer-menu__main-menu__sub-menu {
+  margin: 0;
+  padding: 0; }
+  .footer-menu__main-menu__sub-menu li {
+    list-style-type: none; }
+  .footer-menu__main-menu__sub-menu a {
+    font-size: 0.875em; }
 
 /* ==========================================================================
    Artikellista
@@ -751,8 +792,61 @@ body.mobile-menu-is-open #canvas-content-overlay {
       margin-right: .5em; }
 
 /* ==========================================================================
+   Page.php
+   ========================================================================== */
+/* Breadcrumbs */
+.breadcrumbs {
+  margin-top: 10px; }
+  .breadcrumbs ul {
+    margin: 0;
+    padding: 0; }
+  .breadcrumbs li {
+    display: inline-block;
+    font-size: 0.875em;
+    color: white; }
+    .breadcrumbs li:after {
+      content: ' »'; }
+    .breadcrumbs li:last-child:after {
+      content: ''; }
+  .breadcrumbs a {
+    color: white;
+    text-decoration: none; }
+    .breadcrumbs a:hover {
+      text-decoration: underline; }
+
+/* ==========================================================================
    Sidebar
    ========================================================================== */
+/* Undermeny */
+.sub-menu {
+  display: none; }
+
+.sub-menu ul {
+  margin: 0;
+  padding: 0; }
+
+.sub-menu__item {
+  background: white;
+  list-style: none;
+  border-bottom: 1px solid #cddcff; }
+
+.sub-menu__item--header {
+  border-bottom: none; }
+  .sub-menu__item--header .button.button--dark {
+    font-size: 1.125em; }
+    .sub-menu__item--header .button.button--dark:hover {
+      color: white;
+      background: #2d68b2; }
+
+.sub-menu__item .button {
+  display: block;
+  text-decoration: none;
+  color: #cddcff; }
+  .sub-menu__item .button:hover {
+    color: #0A3B7B;
+    background: #cddcff;
+    box-shadow: none; }
+
 /* Block */
 .widget {
   margin-bottom: 1em;
@@ -808,8 +902,16 @@ body.mobile-menu-is-open #canvas-content-overlay {
     margin: 100px 0 1em 0; }
 
   .main-column {
-    width: 68.75%;
+    width: 68.75%; }
+
+  /**
+   * Helpers
+   */
+  .left {
     float: left; }
+
+  .right {
+    float: right; }
 
   /* ==========================================================================
      Header
@@ -851,6 +953,13 @@ body.mobile-menu-is-open #canvas-content-overlay {
     display: block; }
 
   /* ==========================================================================
+     Footer
+     ========================================================================== */
+  .footer-menu__main-menu > li {
+    width: 20%;
+    float: left; }
+
+  /* ==========================================================================
      Artikel
      ========================================================================== */
   .article__body {
@@ -858,10 +967,20 @@ body.mobile-menu-is-open #canvas-content-overlay {
     max-width: 700px; }
 
   /* ==========================================================================
+     Page.php
+     ========================================================================== */
+  /* Breadcrumbs */
+  .breadcrumbs {
+    position: absolute; }
+
+  /* ==========================================================================
      Sidebar
      ========================================================================== */
   .sidebar {
-    width: 28.75%;
-    float: right; } }
+    width: 28.75%; }
+
+  /* Undermeny */
+  .sub-menu {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
