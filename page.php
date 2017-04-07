@@ -11,21 +11,8 @@
     </section>
     
     <nav class="sidebar sub-menu left section-wrapper has-shadow">
-        <ul>
-            <?php $parent_id = get_page_parent_id( $post ); ?>
-            <li class="sub-menu__item sub-menu__item--header">
-                <a href="<?php echo get_permalink( $parent_id );?>" class="button button--dark"><?php echo get_the_title( $parent_id );?></a>
-            </li>
-            <?php if ( $child_pages = child_pages( $parent_id ) ) : ?>
-                <?php foreach ( $child_pages as $sub_menu_item ) : ?>
-                    <li class="sub-menu__item">
-                        <a class="button button--white" href="<?php echo get_permalink( $sub_menu_item->ID );?>">
-                            <?php echo $sub_menu_item->post_title;?>
-                        </a>
-                    </li>
-                <?php endforeach; ?>
-            <?php endif; ?>
-        </ul>
+        <?php $parent_id = get_page_parent_id( $post ); ?>
+        <a href="<?php echo get_permalink( $parent_id );?>" class="sub-menu__item sub-menu__item--header button button--block button--dark"><?php echo get_the_title( $parent_id );?></a>
         <?php
         echo get_sub_menu( $parent_id );
         ?>

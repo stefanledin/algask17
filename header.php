@@ -97,8 +97,8 @@
                                 <li class="main-menu__page-links">
                                     <ul>
                                         <?php foreach ( main_menu_items() as $menu_item ) :  ?>
-                                            <li class="<?php echo menu_item_classes( $menu_item );?>">
-                                                <a class="button button--dark button--large" href="<?php echo $menu_item->url;?>"><?php echo $menu_item->title;?></a>
+                                            <li class="main-menu__item">
+                                                <a class="<?php echo menu_item_classes( $menu_item->object_id );?> button--large" href="<?php echo $menu_item->url;?>"><?php echo $menu_item->title;?></a>
                                         <?php endforeach; ?>
                                     </ul>
                                 </li>

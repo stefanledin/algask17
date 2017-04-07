@@ -39,8 +39,8 @@ function get_sub_menu( $parent_id ) {
     if ( ! $child_pages ) return false;
     $html = '<ul>';
     foreach ( $child_pages as $index => $child_page ) {
-        $html .= '<li class="sub-menu__item level-'.$index.'">';
-            $html .= '<a href="'.get_permalink( $child_page->ID ).'">'.$child_page->post_title.'</a>';
+        $html .= '<li class="sub-menu__item '.sub_menu_item_classes($child_page->ID).'">';
+            $html .= '<a class="button button--white button--block" href="'.get_permalink( $child_page->ID ).'">'.$child_page->post_title.'</a>';
             if ( $child_page_children = child_pages( $child_page->ID ) ) {
                 $html .= get_sub_menu( $child_page->ID );
             }
@@ -50,24 +50,19 @@ function get_sub_menu( $parent_id ) {
     return $html;
 }
 
-function menu_item_classes( $menu_item ) {
-    global $post;
-    return ( 
-        ($menu_item->object_id == $post->ID) || 
-        ($menu_item->object_id == $post->post_parent) ||
-        ($menu_item->object_id == end(get_post_ancestors( $post )))
-        ) 
-        ? 'main-menu__item main-menu__item--current' 
-        : 'main-menu__item';
+function menu_item_classes( $menu_item_object_id ) {
+    return ( is_current_menu_item( $menu_item_object_id ) ) ? 'button' : 'button button--dark';
 }
 
 function sub_menu_item_classes( $page_id ) {
+    return ( is_current_menu_item( $page_id ) ) ? 'current' : '';
+}
+
+function is_current_menu_item( $id ) {
     global $post;
     return (
-        ( $page_id == $post->ID ) ||
-        ( $page_id == $post->post_parent ) ||
-        ( $page_id == end(get_post_ancestors( $post )))
-        )
-        ? 'current'
-        : '';
+        ( $id == $post->ID ) ||
+        ( $id == $post->post_parent ) ||
+        ( $id == end(get_post_ancestors( $post )))
+    );
 }

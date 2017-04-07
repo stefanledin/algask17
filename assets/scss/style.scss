@@ -93,6 +93,9 @@ a.button,
         padding: .35em 1em;
         font-size: 1.125em;
     }
+    &.button--block {
+        display: block;
+    }
     &.button--is-icon {
         svg {
             vertical-align: text-bottom;
@@ -351,6 +354,9 @@ body.mobile-menu-is-open {
    Footer
    ========================================================================== */
 
+.site-footer {
+    border-top: 1px solid white;
+}
 .footer-menu {}
 .footer-menu__main-menu {
     @include clearfix;
@@ -502,23 +508,28 @@ body.mobile-menu-is-open {
     margin: 0;
     padding: 0;
 }
+.sub-menu ul ul  {
+    display: none;
+    .button {
+        padding-left: 1.5em;
+    }
+}
+.sub-menu li.current > ul {
+    display: block;
+}
 .sub-menu__item {
     background: white;
     list-style: none;
-    border-bottom: 1px solid $light-blue;
 }
 .sub-menu__item--header {
     border-bottom: none;
-    .button.button--dark {
-        font-size: 1.125em;
-        &:hover {
-            color: white;
-            background: $blue;
-        }
+    font-size: 1.125em;
+    &:hover {
+        color: white;
+        background: $blue;
     }
 }
 .sub-menu__item .button {
-    display: block;
     text-decoration: none;
     color: $light-blue;
     &:hover {

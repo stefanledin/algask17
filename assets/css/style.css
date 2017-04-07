@@ -491,6 +491,10 @@ a.button,
   .button.button--large {
     padding: .35em 1em;
     font-size: 1.125em; }
+  button.button--block,
+  a.button.button--block,
+  .button.button--block {
+    display: block; }
   button.button--is-icon svg,
   a.button.button--is-icon svg,
   .button.button--is-icon svg {
@@ -704,6 +708,9 @@ body.mobile-menu-is-open #canvas-content-overlay {
 /* ==========================================================================
    Footer
    ========================================================================== */
+.site-footer {
+  border-top: 1px solid white; }
+
 .footer-menu__main-menu {
   margin: 0 0 1em 0;
   padding: 0; }
@@ -825,21 +832,26 @@ body.mobile-menu-is-open #canvas-content-overlay {
   margin: 0;
   padding: 0; }
 
+.sub-menu ul ul {
+  display: none; }
+  .sub-menu ul ul .button {
+    padding-left: 1.5em; }
+
+.sub-menu li.current > ul {
+  display: block; }
+
 .sub-menu__item {
   background: white;
-  list-style: none;
-  border-bottom: 1px solid #cddcff; }
+  list-style: none; }
 
 .sub-menu__item--header {
-  border-bottom: none; }
-  .sub-menu__item--header .button.button--dark {
-    font-size: 1.125em; }
-    .sub-menu__item--header .button.button--dark:hover {
-      color: white;
-      background: #2d68b2; }
+  border-bottom: none;
+  font-size: 1.125em; }
+  .sub-menu__item--header:hover {
+    color: white;
+    background: #2d68b2; }
 
 .sub-menu__item .button {
-  display: block;
   text-decoration: none;
   color: #cddcff; }
   .sub-menu__item .button:hover {
@@ -955,6 +967,10 @@ body.mobile-menu-is-open #canvas-content-overlay {
   /* ==========================================================================
      Footer
      ========================================================================== */
+  .site-footer {
+    margin-top: 80px;
+    padding-top: 20px; }
+
   .footer-menu__main-menu > li {
     width: 20%;
     float: left; }
