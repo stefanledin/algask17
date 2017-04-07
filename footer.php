@@ -1,6 +1,6 @@
                     </div>
                 </section>
-                 <footer class="section-wrapper">
+                 <footer class="site-footer section-wrapper">
                      <div class="site-width">
                         <nav class="footer-menu">
                             <ul class="footer-menu__main-menu">
@@ -34,13 +34,11 @@
                                 </li>
                             </ul>
                         </nav>
-                     </div>
-                    <div class="site-width">
                         <picture>
                             <source type="image/svg+xml" srcset="<?php echo asset('img/algask-klubbmarke.svg');?>">
                             <img class="center-block" src="<?php echo asset('img/algask-klubbmarke.png');?>" alt="Älgå Sportklubb">
                         </picture>
-                    </div>
+                     </div>
                 </footer>
 
             </div>
