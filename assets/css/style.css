@@ -481,6 +481,10 @@ a.button,
   .button.button--white {
     background: white;
     color: #0A3B7B; }
+    button.button--white:hover,
+    a.button.button--white:hover,
+    .button.button--white:hover {
+      background: #eaeaea; }
   button.button--dark,
   a.button.button--dark,
   .button.button--dark {
@@ -709,6 +713,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
    Footer
    ========================================================================== */
 .site-footer {
+  padding-top: 20px;
   border-top: 1px solid white; }
 
 .footer-menu__main-menu {
@@ -840,6 +845,9 @@ body.mobile-menu-is-open #canvas-content-overlay {
 .sub-menu li.current > ul {
   display: block; }
 
+.sub-menu li.current > .button {
+  background: #eaeaea; }
+
 .sub-menu__item {
   background: white;
   list-style: none; }
@@ -853,7 +861,8 @@ body.mobile-menu-is-open #canvas-content-overlay {
 
 .sub-menu__item .button {
   text-decoration: none;
-  color: #cddcff; }
+  color: #cddcff;
+  border-bottom: 1px solid white; }
   .sub-menu__item .button:hover {
     color: #0A3B7B;
     background: #cddcff;
@@ -889,6 +898,9 @@ body.mobile-menu-is-open #canvas-content-overlay {
 .widget--grey {
   background: #fcfcfc;
   border: 1px solid #ccc; }
+
+.widget--white {
+  background: white; }
 
 @media (min-width: 767px) {
   /* ==========================================================================
@@ -968,8 +980,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
      Footer
      ========================================================================== */
   .site-footer {
-    margin-top: 80px;
-    padding-top: 20px; }
+    margin-top: 80px; }
 
   .footer-menu__main-menu > li {
     width: 20%;

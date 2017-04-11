@@ -1,14 +1,6 @@
 <?php get_header(); ?>
     
-    <section class="breadcrumbs">
-        <ul>
-            <?php
-            if ( function_exists('bcn_display_list') ) {
-                bcn_display_list();
-            }
-            ?>
-        </ul>
-    </section>
+    <?php get_template_part( 'partials/secion', 'breadcrumbs' ); ?>
     
     <nav class="sidebar sub-menu left section-wrapper has-shadow">
         <?php $parent_id = get_page_parent_id( $post ); ?>

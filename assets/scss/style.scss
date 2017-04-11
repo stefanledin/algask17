@@ -84,6 +84,9 @@ a.button,
     &.button--white {
         background: white;
         color: $dark-blue;
+        &:hover {
+            background: #eaeaea;
+        }
     }
     &.button--dark {
         background: $dark-blue;
@@ -355,6 +358,7 @@ body.mobile-menu-is-open {
    ========================================================================== */
 
 .site-footer {
+    padding-top: 20px;
     border-top: 1px solid white;
 }
 .footer-menu {}
@@ -517,6 +521,9 @@ body.mobile-menu-is-open {
 .sub-menu li.current > ul {
     display: block;
 }
+.sub-menu li.current > .button {
+    background: #eaeaea;
+}
 .sub-menu__item {
     background: white;
     list-style: none;
@@ -532,6 +539,7 @@ body.mobile-menu-is-open {
 .sub-menu__item .button {
     text-decoration: none;
     color: $light-blue;
+    border-bottom: 1px solid white;
     &:hover {
         color: $dark-blue;
         background: $light-blue;
@@ -580,6 +588,9 @@ body.mobile-menu-is-open {
 .widget--grey {
     background: $grey;
     border: 1px solid #ccc;
+}
+.widget--white {
+    background: white;
 }
 
 @import 'mq';
