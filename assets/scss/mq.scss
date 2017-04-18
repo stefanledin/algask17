@@ -61,6 +61,14 @@
     }
     .site-header__logo-text-long {
         display: block;
+        font-size: 2.5em;
+        font-weight: bold;
+        text-decoration: none;
+        .wf-oswald-n7-active & {
+            font-family: 'Oswald';
+            font-weight: 700;
+            font-size: 2.9em;
+        }
     }
     
     /**

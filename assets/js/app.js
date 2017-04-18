@@ -2,7 +2,7 @@
 
     var body = document.body;
 
-    var mobileMenu = function () {
+    var mobileMenu = (function () {
         var openButton = document.querySelector('.site-header__mobile-menu-button');
         var closeButton = document.querySelector('button.mobile-menu__close-button');
         var overlay = document.getElementById('canvas-content-overlay');
@@ -18,7 +18,12 @@
         closeButton.addEventListener('touch', openClose);
         overlay.addEventListener('click', openClose);
         overlay.addEventListener('touch', openClose);
-    };
-    mobileMenu();
+    })();
+
+    WebFont.load({
+        google: {
+            families: ['Oswald:700']
+        }
+    });
 
 })(window, document);

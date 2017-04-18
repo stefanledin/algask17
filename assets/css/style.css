@@ -439,8 +439,39 @@ img {
   display: block; }
 
 /**
+ * Färger
+ */
+.blue {
+  background-color: #2d68b2; }
+
+.light-blue {
+  background-color: #cddcff; }
+
+.dark-blue {
+  background-color: #0A3B7B; }
+
+.white {
+  background-color: white; }
+
+.text-blue {
+  color: #2d68b2; }
+
+.text-light-blue {
+  color: #cddcff; }
+
+.text-dark-blue {
+  color: #0A3B7B; }
+
+.text-white {
+  color: white; }
+
+/**
  * Typografi
  */
+h1, .h1, h2, .h2, h3, .h3 {
+  word-wrap: break-word;
+  line-height: 1; }
+
 h1, .h1 {
   font-size: 2em;
   margin: .5em 0;
@@ -451,6 +482,17 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1em; }
+
+.wf-oswald-n7-active h1, .wf-oswald-n7-active .h1 {
+  font-family: 'Oswald';
+  font-size: 2.4em;
+  font-weight: 700; }
+.wf-oswald-n7-active h3, .wf-oswald-n7-active .h3 {
+  font-family: 'Oswald';
+  font-weight: 500; }
+
+.text-center {
+  text-align: center; }
 
 /**
  * Knappar och länkar
@@ -646,6 +688,15 @@ body.mobile-menu-is-open #canvas-content-overlay {
 .site-header__logo-symbol {
   max-width: 44px;
   margin-right: 1em; }
+
+.site-header__logo-text-short {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none; }
+  .wf-oswald-n7-active .site-header__logo-text-short {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 1.75em; }
 
 .site-header__logo-text-long {
   display: none; }
@@ -868,6 +919,9 @@ body.mobile-menu-is-open #canvas-content-overlay {
     background: #cddcff;
     box-shadow: none; }
 
+/* ==========================================================================
+   Widgets
+   ========================================================================== */
 /* Block */
 .widget {
   margin-bottom: 1em;
@@ -896,11 +950,46 @@ body.mobile-menu-is-open #canvas-content-overlay {
   background: #cddcff; }
 
 .widget--grey {
-  background: #fcfcfc;
+  background: #eaeaea;
   border: 1px solid #ccc; }
 
 .widget--white {
   background: white; }
+
+/**
+ * Game widget
+ */
+.game-widget__league-name {
+  margin-bottom: .5em;
+  text-align: center;
+  display: block; }
+
+.game-widget__home-team,
+.game-widget__away-team {
+  width: 47.5%;
+  word-wrap: break-word; }
+
+.game-widget__result {
+  margin: .125em 0;
+  text-align: center;
+  display: block;
+  color: #0A3B7B; }
+
+.game-widget__home-team {
+  float: left; }
+
+.game-widget__away-team {
+  float: right; }
+
+.game-widget__team-name {
+  display: block;
+  text-align: center; }
+
+.game-widget__game-information {
+  margin-top: .5em;
+  float: none;
+  clear: both;
+  text-align: center; }
 
 @media (min-width: 767px) {
   /* ==========================================================================
@@ -956,7 +1045,14 @@ body.mobile-menu-is-open #canvas-content-overlay {
     display: none; }
 
   .site-header__logo-text-long {
-    display: block; }
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: none; }
+    .wf-oswald-n7-active .site-header__logo-text-long {
+      font-family: 'Oswald';
+      font-weight: 700;
+      font-size: 2.9em; }
 
   /**
    * Knapp för mobilmeny

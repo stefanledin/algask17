@@ -69,22 +69,8 @@
                                     </picture>
                                 </a>
                             </div>
-                            <div class="site-header__logo-text-short">
-                                <a href="<?php echo home_url();?>">
-                                    <picture>
-                                        <source type="image/svg+xml" srcset="<?php echo asset('img/algask-klubbmarke-text.svg');?>">
-                                        <img src="<?php echo asset('img/algask-klubbmarke-text.png');?>" alt="Älgå Sportklubb">
-                                    </picture>
-                                </a>
-                            </div>
-                            <div class="site-header__logo-text-long">
-                            <a href="<?php echo home_url();?>">
-                                <picture>
-                                    <source type="image/svg+xml" srcset="<?php echo asset('img/algasportklubb-klubbmarke-text.svg');?>">
-                                    <img src="<?php echo asset('img/algask-klubbmarke-text.png');?>" alt="Älgå Sportklubb">
-                                </picture>
-                            </a>
-                            </div>
+                            <a href="<?php echo home_url();?>" class="site-header__logo-text-short">Älgå <span class="text-dark-blue">SK</span></a>
+                            <a href="<?php echo home_url();?>" class="site-header__logo-text-long">Älgå <span class="text-dark-blue">Sportklubb</span></a>
                         </div>
                         <button class="site-header__mobile-menu-button flex vertical-center">
                             <svg height="16px" style="enable-background:new 0 0 16 16;" version="1.1" viewBox="0 0 32 32" width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
@@ -112,5 +98,5 @@
                         </nav>
                     </div>
                 </header>
-                <section>
+                <section class="section-wrapper">
                     <div class="site-width">

@@ -4,7 +4,7 @@ Template name: Startsida
  */
 get_header(); ?>
 
-<main class="main-column left section-wrapper">
+<main class="main-column left">
     <div class="article-list has-shadow">
         <?php
         $latest_news = get_posts( array(
@@ -33,7 +33,45 @@ get_header(); ?>
         </div>
     </div>
 </main>
-<aside class="sidebar right section-wrapper">
+<aside class="sidebar right">
+    <div class="widget widget--grey game-widget has-shadow">
+        <div class="widget__inner">
+            <h3 class="widget__title">Senaste matchen</h3>
+            <span class="game-widget__league-name">Division 7 nordvästra herrar</span>
+            <div class="game-widget__home-team">
+                <img src="http://placehold.it/140x140" class="game-widget__team-logo">
+                <span class="game-widget__team-name">Hillringsberg/Älgå</span>
+                <span class="h2 game-widget__result">2</spa>
+            </div>
+            <div class="game-widget__away-team">
+                <img src="http://placehold.it/140x140" class="game-widget__team-logo">
+                <span class="game-widget__team-name">Klässbols SK</span>
+                <span class="h2 game-widget__result">0</spa>
+            </div>
+            <div class="game-widget__game-information">
+                <span class="game-widget__game-datetime">1 maj 19:00</span>
+                <span class="game-widget__game-location">Älgvallen</span>
+            </div>
+        </div>
+    </div>
+    <div class="widget game-widget has-shadow white">
+        <div class="widget__inner">
+            <h3 class="widget__title">Nästa match</h3>
+            <span class="game-widget__league-name">Division 7 nordvästra herrar</span>
+            <div class="game-widget__home-team">
+                <img src="http://placehold.it/140x140" class="game-widget__team-logo">
+                <span class="game-widget__team-name">Hillringsberg/Älgå</span>
+            </div>
+            <div class="game-widget__away-team">
+                <img src="http://placehold.it/140x140" class="game-widget__team-logo">
+                <span class="game-widget__team-name">Klässbols SK</span>
+            </div>
+            <div class="game-widget__game-information">
+                <span class="game-widget__game-datetime">1 maj 19:00</span>
+                <span class="game-widget__game-location">Älgvallen</span>
+            </div>
+        </div>
+    </div>
     <div class="widget widget--light-blue has-shadow">
         <div class="widget__inner">
             <h3 class="widget__title">Årsmöte</h3>
