@@ -41,7 +41,15 @@
                     "type": "text",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "title_image_text"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -49,18 +57,38 @@
                     }
                 },
                 {
-                    "default_value": "",
-                    "maxlength": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
                     "key": "field_58f51f9bfdeee",
                     "label": "Bild",
                     "name": "image",
-                    "type": "text",
+                    "type": "image",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "image"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "title_image_text"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -79,7 +107,15 @@
                     "type": "text",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "title_image_text"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -102,12 +138,86 @@
                     "placeholder": "",
                     "return_format": "value",
                     "key": "field_58f51fb8fdef0",
-                    "label": "L\u00e4nk",
+                    "label": "L\u00e4nktyp",
                     "name": "link_type",
                     "type": "select",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "image"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "title_image_text"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "post_type": [
+                        "post",
+                        "page"
+                    ],
+                    "taxonomy": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "allow_archives": 1,
+                    "key": "field_58fe3ed857de3",
+                    "label": "L\u00e4nk",
+                    "name": "internal_link",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51fb8fdef0",
+                                "operator": "==",
+                                "value": "internal_link"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "key": "field_58fe3ef957de4",
+                    "label": "L\u00e4nk",
+                    "name": "external_link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51fb8fdef0",
+                                "operator": "==",
+                                "value": "external_link"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -151,5 +261,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1492491946
+    "modified": 1493059963
 }
