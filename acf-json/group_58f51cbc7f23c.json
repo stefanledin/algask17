@@ -124,6 +124,34 @@
                 },
                 {
                     "multiple": 0,
+                    "allow_null": 1,
+                    "choices": {
+                        "none": "Ingen",
+                        "button": "Knapp",
+                        "widget": "Hela widgeten"
+                    },
+                    "default_value": [
+                        
+                    ],
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "return_format": "value",
+                    "key": "field_58ff962f8e7fc",
+                    "label": "L\u00e4nk",
+                    "name": "link_as",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "multiple": 0,
                     "allow_null": 0,
                     "choices": {
                         "none": "Ingen",
@@ -143,22 +171,7 @@
                     "type": "select",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": [
-                        [
-                            {
-                                "field": "field_58f51e6d22bb4",
-                                "operator": "==",
-                                "value": "image"
-                            }
-                        ],
-                        [
-                            {
-                                "field": "field_58f51e6d22bb4",
-                                "operator": "==",
-                                "value": "title_image_text"
-                            }
-                        ]
-                    ],
+                    "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -231,8 +244,8 @@
             "button_label": "L\u00e4gg till puff",
             "collapsed": "field_58f51d1222bb2",
             "key": "field_58f51cc022bb1",
-            "label": "Puffar",
-            "name": "blurbs",
+            "label": "Widgets",
+            "name": "widgets",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -261,5 +274,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1493059963
+    "modified": 1493145903
 }

@@ -77,21 +77,26 @@ h1, .h1, h2, .h2, h3, .h3 {
     line-height: 1;
 }
 h1, .h1 {
-    font-size: 2em;
-    margin: .5em 0;
+    font-size: 32px;
+    margin: 8px 0;
     line-height: 1.2;
 }
 h2, .h2 {
-    font-size: 1.5em;
+    font-size: 24px;
 }
 h3, .h3 {
-    font-size: 1em;
+    margin: 16px 0;
+    font-size: 16px;
 }
 .wf-oswald-n7-active {
     h1, .h1 {
         font-family: 'Oswald';
         font-size: 2.4em;
         font-weight: 700;
+    }
+    h2, .h2 {
+        font-family: 'Oswald';
+        font-weight: 500;
     }
     h3, .h3 {
         font-family: 'Oswald';
@@ -116,7 +121,7 @@ a:hover {
 button,
 a.button,
 .button {
-    padding: .5em;
+    padding: 8px;
     display: inline-block;
     background: $blue;
     border: none;
@@ -184,7 +189,7 @@ main {
 }
 
 .inner {
-    padding: .5em 1em;
+    padding: 16px;
 }
 
 .flex {
@@ -552,6 +557,27 @@ body.mobile-menu-is-open {
     }
 }
 
+/* ==========================================================================
+   Lagsida
+   ========================================================================== */
+
+/* Spelarlista */
+.player-list {
+    margin: 0;
+    padding: 0;
+}
+.player-list__item {
+    width: 25%;
+    float: left;
+    display: block;
+    figure {
+        margin: 0;
+        padding: 1px;
+    }
+    figcaption {
+        text-align: center;
+    }
+}
 
 /* ==========================================================================
    Sidebar
@@ -611,17 +637,17 @@ body.mobile-menu-is-open {
 .widget {
     margin-bottom: 1em;
     overflow: hidden;
+    font-size: 14px;
     img {
-        margin: 0 0 .5em 0;
+        margin: 0 0 8px 0;
     }
     p {
-        margin: 0 0 0.571em 0;
-        font-size: 0.875em;
+        margin: 0 0 16px 0;
     }
 }
 /* Elements */
 .widget__title {
-    margin: 0 0 0.667em;
+    margin: 0 0 16px;
     font-size: 24px;
     text-align: center;
 }
@@ -635,7 +661,7 @@ body.mobile-menu-is-open {
     }
 }
 .widget__cta {
-    margin-top: .5em;
+    margin-top: 8px;
 }
 
 /* Modifiers */
@@ -667,10 +693,13 @@ body.mobile-menu-is-open {
     word-wrap: break-word;
 }
 .game-widget__result {
-    margin: .125em 0;
+    margin: 8px 0;
     text-align: center;
     display: block;
     color: $dark-blue;
+    .wf-oswald-n7-active & {
+        font-family: 'Oswald';
+    }
 }
 .game-widget__home-team {
     float: left;

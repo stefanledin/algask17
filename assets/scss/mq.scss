@@ -8,21 +8,20 @@
      * Typografi
      */
     h1, .h1 {
-        margin: 0.333em 0;
-        font-size: 3em;
+        font-size: 48px;
     }
     h2, .h2 {
-        font-size: 2em;
+        font-size: 28px;
     }
     h3, .h3 {
-        font-size: 1em;
+        font-size: 16px;
     }
 
     /**
      * Layout
      */
     .section-wrapper {
-        margin: 100px 0 1em 0;
+        margin: 100px 0 16px 0;
     }
 
     .main-column {
@@ -61,13 +60,13 @@
     }
     .site-header__logo-text-long {
         display: block;
-        font-size: 2.5em;
+        font-size: 40px;
         font-weight: bold;
         text-decoration: none;
         .wf-oswald-n7-active & {
             font-family: 'Oswald';
             font-weight: 700;
-            font-size: 2.9em;
+            font-size: 46px;
         }
     }
     
