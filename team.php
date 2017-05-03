@@ -13,8 +13,12 @@ get_header();
             <?php $i = 0; while ( $i < 7 ) : ?>
             <li class="player-list__item">
                 <figure>
-                    <img src="http://placehold.it/185x185" alt="">
-                    <figcaption>Namn Namnsson</figcaption>
+                    <img src="http://placehold.it/185x277" alt="">
+                    <?php if ( $i % 2 == 0 ) : ?>
+                        <figcaption>Namn Namnsson</figcaption>
+                    <?php else : ?>
+                        <figcaption>Namn Långnamn Namnsson</figcaption>
+                    <?php endif; ?>
                 </figure>
             </li>
             <?php $i++; endwhile; ?>

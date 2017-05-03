@@ -582,6 +582,10 @@ main {
 
 .inner, .widget__inner {
   padding: 16px; }
+  .inner:after, .widget__inner:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .flex {
   display: flex; }
@@ -900,9 +904,11 @@ body.mobile-menu-is-open #canvas-content-overlay {
   display: block; }
   .player-list__item figure {
     margin: 0;
-    padding: 1px; }
+    padding: 4px; }
   .player-list__item figcaption {
-    text-align: center; }
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.1; }
 
 /* ==========================================================================
    Sidebar
