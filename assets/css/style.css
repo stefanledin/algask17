@@ -906,9 +906,22 @@ body.mobile-menu-is-open #canvas-content-overlay {
     margin: 0;
     padding: 4px; }
   .player-list__item figcaption {
+    margin-top: 5px;
     text-align: center;
     font-size: 14px;
-    line-height: 1.1; }
+    line-height: 1.2; }
+
+/**
+ * Spelarsida
+ */
+.player figure {
+  margin: 0; }
+
+.player__image {
+  float: left; }
+
+.player__info {
+  float: right; }
 
 /* ==========================================================================
    Sidebar
@@ -1119,5 +1132,3 @@ body.mobile-menu-is-open #canvas-content-overlay {
   /* Undermeny */
   .sub-menu {
     display: block; } }
-
-/*# sourceMappingURL=style.css.map */

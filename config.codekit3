@@ -44,7 +44,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
@@ -206,6 +206,48 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_import-now.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_import-now.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_normalize-mixin.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_normalize-mixin.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_variables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_variables.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_vertical-rhythm.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_vertical-rhythm.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/mq.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/mq.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/style.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/665e91b8ccc113a110ab1dae0e43e0b349f29bf7\/_normalize.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/665e91b8ccc113a110ab1dae0e43e0b349f29bf7\/_normalize.scssc",
+		"oF": 0
+		},
 	"\/assets\/scss\/mq.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -225,7 +267,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/style.css",
 		"oF": 0,
@@ -330,6 +372,12 @@
 		"oAP": "\/partials\/section-breadcrumbs.php",
 		"oF": 0
 		},
+	"\/single-spelare.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single-spelare.php",
+		"oF": 0
+		},
 	"\/single.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -348,7 +396,7 @@
 		},
 	"\/team.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/team.php",
 		"oF": 0
 		}

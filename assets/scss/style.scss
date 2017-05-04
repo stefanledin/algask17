@@ -576,10 +576,26 @@ body.mobile-menu-is-open {
         padding: 4px;
     }
     figcaption {
+        margin-top: 5px;
         text-align: center;
         font-size: 14px;
-        line-height: 1.1;
+        line-height: 1.2;
     }
+}
+
+/**
+ * Spelarsida
+ */
+.player {
+    figure {
+        margin: 0;
+    }
+}
+.player__image {
+    float: left;
+}
+.player__info {
+    float: right;
 }
 
 /* ==========================================================================
