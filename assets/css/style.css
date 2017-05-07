@@ -903,9 +903,13 @@ body.mobile-menu-is-open #canvas-content-overlay {
 .player-list {
   margin: 0;
   padding: 0; }
+  .player-list:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .player-list__item {
-  width: 25%;
+  width: 50%;
   float: left;
   display: block; }
   .player-list__item figure {
@@ -1142,6 +1146,9 @@ body.mobile-menu-is-open #canvas-content-overlay {
     width: 47.5%; }
   .player__personal-facts {
     width: 47.5%; }
+  /* Spelarlista */
+  .player-list__item {
+    width: 25%; }
   /* ==========================================================================
        Sidebar
        ========================================================================== */

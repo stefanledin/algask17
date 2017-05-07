@@ -573,9 +573,10 @@ body.mobile-menu-is-open {
 .player-list {
     margin: 0;
     padding: 0;
+    @include clearfix;
 }
 .player-list__item {
-    width: 25%;
+    width: 50%;
     float: left;
     display: block;
     figure {
