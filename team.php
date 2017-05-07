@@ -5,6 +5,8 @@ Template name: Lagsida
 get_header();
 ?>
 
+<?php get_sidebar(); ?>
+
 <main class="main-column right has-shadow">
     <div class="inner">
         <h1><?php the_title();?></h1>

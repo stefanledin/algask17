@@ -372,6 +372,12 @@
 		"oAP": "\/partials\/section-breadcrumbs.php",
 		"oF": 0
 		},
+	"\/sidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sidebar.php",
+		"oF": 0
+		},
 	"\/single-spelare.php": {
 		"ft": 8192,
 		"oA": 2,

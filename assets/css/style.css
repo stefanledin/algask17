@@ -438,6 +438,12 @@ img {
   height: auto;
   display: block; }
 
+td, th {
+  padding: 0 5px 0 0; }
+
+th {
+  text-align: left; }
+
 /**
  * Färger
  */
@@ -916,12 +922,13 @@ body.mobile-menu-is-open #canvas-content-overlay {
  */
 .player figure {
   margin: 0; }
+  .player figure img {
+    margin: 0 auto;
+    display: block; }
 
-.player__image {
-  float: left; }
-
-.player__info {
-  float: right; }
+.player__personal-info {
+  float: none;
+  clear: both; }
 
 /* ==========================================================================
    Sidebar
@@ -1124,6 +1131,17 @@ body.mobile-menu-is-open #canvas-content-overlay {
   /* Breadcrumbs */
   .breadcrumbs {
     position: absolute; }
+  /* ==========================================================================
+       Lagsida
+       ========================================================================== */
+  /**
+     * Spelarsida
+     */
+  .player figure {
+    margin-right: 10px;
+    width: 47.5%; }
+  .player__personal-facts {
+    width: 47.5%; }
   /* ==========================================================================
        Sidebar
        ========================================================================== */

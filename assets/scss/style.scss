@@ -41,6 +41,13 @@ img {
     display: block;
 }
 
+td, th {
+    padding: 0 5px 0 0;
+}
+th {
+    text-align: left;
+}
+
 /**
  * Färger
  */
@@ -589,13 +596,21 @@ body.mobile-menu-is-open {
 .player {
     figure {
         margin: 0;
+        img {
+            margin: 0 auto;
+            display: block;
+        }
     }
 }
 .player__image {
-    float: left;
+    //float: left;
 }
-.player__info {
-    float: right;
+.player__facts {
+    //float: right;
+}
+.player__personal-info {
+    float: none;
+    clear: both;
 }
 
 /* ==========================================================================
