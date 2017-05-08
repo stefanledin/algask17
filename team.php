@@ -20,7 +20,7 @@ get_header();
                 <li class="player-list__item">
                     <a href="<?php echo get_permalink( $player->ID );?>">
                         <figure>
-                            <img src="http://placehold.it/185x277" alt="">
+                            <?php echo get_the_post_thumbnail( $player->ID, 'full' ); ?>
                             <figcaption><?php echo $player->post_title;?></figcaption>
                         </figure>
                     </a>
