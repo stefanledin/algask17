@@ -31,6 +31,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/acf-json\/group_5911f007d10b3.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5911f007d10b3-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/archive.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -346,6 +354,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/menus.php",
+		"oF": 0
+		},
+	"\/includes\/shortcodes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/shortcodes.php",
 		"oF": 0
 		},
 	"\/index.php": {

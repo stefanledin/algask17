@@ -60,9 +60,14 @@ function sub_menu_item_classes( $page_id ) {
 
 function is_current_menu_item( $id ) {
     global $post;
+    $page = $post;
+    if ( get_post_type() == 'spelare' ) {
+        $team = get_the_terms( $post, 'lag' );
+        $page = get_field('custom_parent_page', $team[0]);
+    }
     return (
-        ( $id == $post->ID ) ||
-        ( $id == $post->post_parent ) ||
-        ( $id == end(get_post_ancestors( $post )))
+        ( $id == $page->ID ) ||
+        ( $id == $page->post_parent ) ||
+        ( $id == end(get_post_ancestors( $page )))
     );
 }

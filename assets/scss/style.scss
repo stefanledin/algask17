@@ -41,6 +41,13 @@ img {
     display: block;
 }
 
+
+/**
+ * Tabeller
+ */
+thead {
+    border-bottom: 1px solid $blue;
+}
 td, th {
     padding: 0 5px 0 0;
 }
@@ -539,6 +546,7 @@ body.mobile-menu-is-open {
 /* Breadcrumbs */
 .breadcrumbs {
     margin-top: 10px;
+    width: 100%;
     ul {
         margin: 0;
         padding: 0;

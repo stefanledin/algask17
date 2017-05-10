@@ -99,6 +99,11 @@ function create_post_types () {
         'rewrite' => array( 'slug' => 'position' ),
     ));
 
+    register_taxonomy( 'lag', array('spelare', 'matcher'), array(
+        'labels' => array('name' => 'Lag', 'singular_name' => 'lag'),
+        'hierarchical' => true,
+    ) );
+
     // Post type sponsorer
     register_post_type('Sponsorer',
         array(

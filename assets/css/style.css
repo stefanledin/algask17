@@ -438,6 +438,12 @@ img {
   height: auto;
   display: block; }
 
+/**
+ * Tabeller
+ */
+thead {
+  border-bottom: 1px solid #2d68b2; }
+
 td, th {
   padding: 0 5px 0 0; }
 
@@ -878,7 +884,8 @@ body.mobile-menu-is-open #canvas-content-overlay {
    ========================================================================== */
 /* Breadcrumbs */
 .breadcrumbs {
-  margin-top: 10px; }
+  margin-top: 10px;
+  width: 100%; }
   .breadcrumbs ul {
     margin: 0;
     padding: 0; }
@@ -1100,6 +1107,8 @@ body.mobile-menu-is-open #canvas-content-overlay {
       font-family: 'Oswald';
       font-weight: 700;
       font-size: 46px; }
+    .site-header__logo-text-long:hover {
+      color: #2d68b2; }
   /**
      * Knapp för mobilmeny
      */
