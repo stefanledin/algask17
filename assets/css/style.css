@@ -441,11 +441,24 @@ img {
 /**
  * Tabeller
  */
+table {
+  margin: 0 0 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px; }
+
 thead {
+  background: #2d68b2;
+  color: white;
   border-bottom: 1px solid #2d68b2; }
 
+tbody tr {
+  background: white; }
+  tbody tr:nth-child(2n) {
+    background: #eaeaea; }
+
 td, th {
-  padding: 0 5px 0 0; }
+  padding: 5px; }
 
 th {
   text-align: left; }
@@ -932,7 +945,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
  * Spelarsida
  */
 .player figure {
-  margin: 0; }
+  margin: 0 0 16px 0; }
   .player figure img {
     margin: 0 auto;
     display: block; }
@@ -1069,7 +1082,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
   h2, .h2 {
     font-size: 28px; }
   h3, .h3 {
-    font-size: 16px; }
+    font-size: 18px; }
   /**
      * Layout
      */
@@ -1151,9 +1164,11 @@ body.mobile-menu-is-open #canvas-content-overlay {
      * Spelarsida
      */
   .player figure {
-    margin-right: 10px;
+    margin-right: 16px;
     width: 47.5%; }
-  .player__personal-facts {
+  .player__facts {
+    width: 47.5%; }
+  .player__personal-info {
     width: 47.5%; }
   /* Spelarlista */
   .player-list__item {

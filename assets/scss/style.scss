@@ -45,11 +45,25 @@ img {
 /**
  * Tabeller
  */
+table {
+    margin: 0 0 20px 0;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
 thead {
+    background: $blue;
+    color: white;
     border-bottom: 1px solid $blue;
 }
+tbody tr {
+    background: white;
+    &:nth-child(2n) {
+        background: $grey;
+    }
+}
 td, th {
-    padding: 0 5px 0 0;
+    padding: 5px;
 }
 th {
     text-align: left;
@@ -604,7 +618,7 @@ body.mobile-menu-is-open {
  */
 .player {
     figure {
-        margin: 0;
+        margin: 0 0 16px 0;
         img {
             margin: 0 auto;
             display: block;
