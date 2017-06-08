@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "return_format": "array",
+                    "return_format": "id",
                     "preview_size": "thumbnail",
                     "library": "all",
                     "min_width": "",
@@ -143,7 +143,22 @@
                     "type": "select",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "image"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "title_image_text"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -171,7 +186,49 @@
                     "type": "select",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58ff962f8e7fc",
+                                "operator": "==",
+                                "value": "button"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_58ff962f8e7fc",
+                                "operator": "==",
+                                "value": "widget"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "key": "field_5935904a25727",
+                    "label": "Knapptext",
+                    "name": "button_label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58ff962f8e7fc",
+                                "operator": "==",
+                                "value": "button"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -201,6 +258,11 @@
                                 "field": "field_58f51fb8fdef0",
                                 "operator": "==",
                                 "value": "internal_link"
+                            },
+                            {
+                                "field": "field_58ff962f8e7fc",
+                                "operator": "!=",
+                                "value": "none"
                             }
                         ]
                     ],
@@ -228,6 +290,141 @@
                                 "field": "field_58f51fb8fdef0",
                                 "operator": "==",
                                 "value": "external_link"
+                            },
+                            {
+                                "field": "field_58ff962f8e7fc",
+                                "operator": "!=",
+                                "value": "none"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "choices": {
+                        "next_game": "N\u00e4sta match",
+                        "prev_game": "F\u00f6reg\u00e5ende match",
+                        "joker": "\u00c4lg\u00e5jokern"
+                    },
+                    "default_value": [
+                        
+                    ],
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "return_format": "value",
+                    "key": "field_593421f6e7cfb",
+                    "label": "H\u00e5rdkodad",
+                    "name": "hardcoded",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "hard_coded"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "taxonomy": "serie",
+                    "field_type": "radio",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "return_format": "object",
+                    "add_term": 1,
+                    "load_terms": 0,
+                    "save_terms": 0,
+                    "key": "field_593429a329133",
+                    "label": "Serie",
+                    "name": "series",
+                    "type": "taxonomy",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "hard_coded"
+                            },
+                            {
+                                "field": "field_593421f6e7cfb",
+                                "operator": "==",
+                                "value": "next_game"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "hard_coded"
+                            },
+                            {
+                                "field": "field_593421f6e7cfb",
+                                "operator": "==",
+                                "value": "prev_game"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "taxonomy": "sasong",
+                    "field_type": "radio",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "return_format": "object",
+                    "add_term": 1,
+                    "load_terms": 0,
+                    "save_terms": 0,
+                    "key": "field_593429d729134",
+                    "label": "S\u00e4song",
+                    "name": "season",
+                    "type": "taxonomy",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_593421f6e7cfb",
+                                "operator": "==",
+                                "value": "next_game"
+                            },
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "hard_coded"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_58f51e6d22bb4",
+                                "operator": "==",
+                                "value": "hard_coded"
+                            },
+                            {
+                                "field": "field_593421f6e7cfb",
+                                "operator": "==",
+                                "value": "prev_game"
                             }
                         ]
                     ],
@@ -274,5 +471,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1493145903
+    "modified": 1496683274
 }

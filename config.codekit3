@@ -394,6 +394,42 @@
 		"oAP": "\/partials\/section-breadcrumbs.php",
 		"oF": 0
 		},
+	"\/partials\/widget_hard_coded.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_hard_coded.php",
+		"oF": 0
+		},
+	"\/partials\/widget_hardcoded_joker.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_hardcoded_joker.php",
+		"oF": 0
+		},
+	"\/partials\/widget_hardcoded_next_game.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_hardcoded_next_game.php",
+		"oF": 0
+		},
+	"\/partials\/widget_hardcoded_prev_game.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_hardcoded_prev_game.php",
+		"oF": 0
+		},
+	"\/partials\/widget_image.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_image.php",
+		"oF": 0
+		},
+	"\/partials\/widget_title_image_text.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_title_image_text.php",
+		"oF": 0
+		},
 	"\/sidebar.php": {
 		"ft": 8192,
 		"oA": 2,
