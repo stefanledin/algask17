@@ -511,19 +511,20 @@ h3, .h3 {
 
 .wf-oswald-n7-active h1, .wf-oswald-n7-active .h1 {
   font-family: 'Oswald';
-  font-size: 2.4em;
+  font-size: 38px;
   font-weight: 700; }
 
 .wf-oswald-n7-active h2, .wf-oswald-n7-active .h2 {
   font-family: 'Oswald';
-  font-weight: 500; }
+  font-weight: 700; }
 
 .wf-oswald-n7-active h3, .wf-oswald-n7-active .h3 {
   font-family: 'Oswald';
-  font-weight: 500; }
+  font-weight: 700; }
 
 .text-center {
-  text-align: center; }
+  text-align: center;
+  display: block; }
 
 /**
  * Knappar och länkar
@@ -599,6 +600,7 @@ a.button,
   margin: 1em 0; }
 
 main {
+  margin-bottom: 16px;
   overflow: hidden;
   background: white; }
 
@@ -872,7 +874,10 @@ body.mobile-menu-is-open #canvas-content-overlay {
   padding-bottom: 1em; }
 
 .article__inner {
-  padding: 0 1em; }
+  padding: 0 16px; }
+
+.article__infobox-area .widget {
+  width: 100%; }
 
 .article__footer {
   border-top: 1px solid rgba(0, 0, 0, 0.2); }
@@ -1001,7 +1006,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
    ========================================================================== */
 /* Block */
 .widget {
-  margin-bottom: 1em;
+  margin-bottom: 16px;
   overflow: hidden;
   font-size: 14px; }
   .widget img {
@@ -1012,8 +1017,15 @@ body.mobile-menu-is-open #canvas-content-overlay {
 /* Elements */
 .widget__title {
   margin: 0 0 16px;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  display: block; }
+
+.wf-oswald-n7-active .widget__title {
   font-size: 24px;
-  text-align: center; }
+  font-family: 'Oswald';
+  font-weight: 700; }
 
 .widget--is-image .widget__image {
   margin-bottom: 0;
@@ -1037,7 +1049,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
  * Game widget
  */
 .game-widget__league-name {
-  margin-bottom: .5em;
+  margin-bottom: 8px;
   text-align: center;
   display: block; }
 
@@ -1070,6 +1082,34 @@ body.mobile-menu-is-open #canvas-content-overlay {
   clear: both;
   text-align: center; }
 
+/**
+ * Sökwidget
+ */
+.search-form {
+  display: flex; }
+
+.search-form__field {
+  flex: 3;
+  padding: 8px;
+  border: 1px solid #eaeaea; }
+  .search-form__field:focus {
+    outline: 1px solid #2d68b2; }
+
+.search-form__submit {
+  flex: 1; }
+
+@media (min-width: 500px) {
+  /* ==========================================================================
+       Sidebar
+       ========================================================================== */
+  .widget {
+    width: 48.5%;
+    float: left;
+    clear: left; }
+    .widget:nth-of-type(2n) {
+      float: right;
+      clear: right; } }
+
 @media (min-width: 767px) {
   /* ==========================================================================
        Globals
@@ -1080,9 +1120,15 @@ body.mobile-menu-is-open #canvas-content-overlay {
   h1, .h1 {
     font-size: 48px; }
   h2, .h2 {
-    font-size: 28px; }
+    font-size: 34px; }
   h3, .h3 {
     font-size: 18px; }
+  .wf-oswald-n7-active h1, .wf-oswald-n7-active .h1 {
+    font-size: 55px; }
+  .wf-oswald-n7-active h2, .wf-oswald-n7-active .h2 {
+    font-size: 36px; }
+  .wf-oswald-n7-active h3, .wf-oswald-n7-active .h3 {
+    font-size: 20px; }
   /**
      * Layout
      */
@@ -1151,6 +1197,20 @@ body.mobile-menu-is-open #canvas-content-overlay {
   .article__body {
     margin: 0 auto;
     max-width: 700px; }
+  .article__infobox-area {
+    margin-left: -2.25%; }
+    .article__infobox-area:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .article__infobox-area .widget {
+      margin: 0 2.25% 16px;
+      width: 45%;
+      float: left;
+      clear: left; }
+    .article__infobox-area .widget:nth-of-type(2n) {
+      float: right;
+      clear: right; }
   /* ==========================================================================
        Page.php
        ========================================================================== */
@@ -1178,6 +1238,10 @@ body.mobile-menu-is-open #canvas-content-overlay {
        ========================================================================== */
   .sidebar {
     width: 28.75%; }
+  .widget {
+    width: 100%;
+    float: none;
+    clear: none; }
   /* Undermeny */
   .sub-menu {
     display: block; } }
