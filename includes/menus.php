@@ -65,9 +65,10 @@ function is_current_menu_item( $id ) {
         $team = get_the_terms( $post, 'lag' );
         $page = get_field('custom_parent_page', $team[0]);
     }
+    $ancestors = get_post_ancestors( $page );
     return (
         ( $id == $page->ID ) ||
         ( $id == $page->post_parent ) ||
-        ( $id == end(get_post_ancestors( $page )))
+        ( $id == end( $ancestors ))
     );
 }
