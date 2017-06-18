@@ -438,6 +438,9 @@ img {
   height: auto;
   display: block; }
 
+ul {
+  padding-left: 20px; }
+
 /**
  * Tabeller
  */
@@ -896,6 +899,9 @@ body.mobile-menu-is-open #canvas-content-overlay {
     align-items: center; }
     .article__metadata li svg {
       margin-right: .5em; }
+
+.wp-caption {
+  width: 100% !important; }
 
 /* ==========================================================================
    Page.php

@@ -41,6 +41,10 @@ img {
     display: block;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 
 /**
  * Tabeller
@@ -558,6 +562,10 @@ body.mobile-menu-is-open {
             margin-right: .5em;
         }
     }
+}
+
+.wp-caption {
+    width: 100% !important;
 }
 
 /* ==========================================================================

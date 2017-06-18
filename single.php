@@ -7,8 +7,10 @@
                     <figure class="article__featured-image-wrapper">
                         <?php
                         echo rwp_img( get_post_thumbnail_id(), array(
+                            'retina' => true,
                             'attributes' => array(
-                                'class' => 'article__featured-image'
+                                'class' => 'article__featured-image',
+                                'sizes' => '(min-width: 800px) 1120px, (min-width: 700px) 768px, (min-width: 500px) 667px, (min-width: 390px) 480px, 375px'
                             )
                         ) );
                         ?>

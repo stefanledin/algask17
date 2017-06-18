@@ -56,18 +56,18 @@ get_header();
                 </form>
             </div>
         </div>
-
-        <div class="widget widget--white has-shadow">
-            <div class="widget__inner">
-                <h3 class="widget__title">Arkiv</h3>
-                <ul><?php wp_get_archives(); ?></ul>
-            </div>
-        </div>
     
         <div class="widget widget--white has-shadow">
             <div class="widget__inner">
                 <h3 class="widget__title">Kategorier</h3>
                 <ul><?php wp_list_categories( array('title_li' => '', 'exclude' => '1,7,25,26,27,28,29' ) ); ?></ul>
+            </div>
+        </div>
+
+        <div class="widget widget--white has-shadow">
+            <div class="widget__inner">
+                <h3 class="widget__title">Arkiv</h3>
+                <ul><?php wp_get_archives(); ?></ul>
             </div>
         </div>
     
