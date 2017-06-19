@@ -27,3 +27,14 @@ function add_body_classes( $classes ) {
     return $classes;
 }
 add_filter( 'body_class', 'add_body_classes' );
+
+/**
+ * Filter för att ta bort Critical CSS på undersidor
+ */
+function defer_home() {
+    if ( is_home() || is_front_page() ) {
+        return true;
+    }
+    return false;
+}
+add_filter( 'autoptimize_filter_css_defer', 'defer_home', 10, 0 );
