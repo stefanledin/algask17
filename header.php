@@ -98,5 +98,10 @@
                         </nav>
                     </div>
                 </header>
+                <?php
+                if ( ! is_front_page() ) {
+                    get_template_part( 'partials/section', 'breadcrumbs' );
+                }
+                ?>
                 <section class="section-wrapper">
                     <div class="site-width">
