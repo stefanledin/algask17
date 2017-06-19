@@ -20,7 +20,13 @@ get_header();
                 <li class="player-list__item">
                     <a href="<?php echo get_permalink( $player->ID );?>">
                         <figure>
-                            <?php echo get_the_post_thumbnail( $player->ID, 'full' ); ?>
+                            <?php
+                            if ( has_post_thumbnail( $player->ID ) ) {
+                                echo get_the_post_thumbnail( $player->ID, 'thumbnail' );
+                            } else {
+                                echo '<img src="'.asset('img/player_anonymous.jpg').'">';
+                            }
+                            ?>
                             <figcaption><?php echo $player->post_title;?></figcaption>
                         </figure>
                     </a>

@@ -1,3 +1,20 @@
+@media (min-width: 500px) {
+
+    /* ==========================================================================
+       Sidebar
+       ========================================================================== */
+    .widget {
+        width: 48.5%;
+        float: left;
+        clear: left;
+        &:nth-of-type(2n) {
+            float: right;
+            clear: right;
+        }
+    }
+
+}
+
 @media (min-width: 767px) {
 
     /* ==========================================================================
@@ -11,10 +28,21 @@
         font-size: 48px;
     }
     h2, .h2 {
-        font-size: 28px;
+        font-size: 34px;
     }
     h3, .h3 {
-        font-size: 16px;
+        font-size: 18px;
+    }
+    .wf-oswald-n7-active {
+        h1, .h1 {
+            font-size: 55px;
+        }
+        h2, .h2 {
+            font-size: 36px;
+        }
+        h3, .h3 {
+            font-size: 20px;
+        }
     }
 
     /**
@@ -68,6 +96,9 @@
             font-weight: 700;
             font-size: 46px;
         }
+        &:hover {
+            color: $blue;
+        }
     }
     
     /**
@@ -110,6 +141,20 @@
         margin: 0 auto;
         max-width: 700px;
     }
+    .article__infobox-area {
+        @include clearfix;
+        margin-left: -2.25%;
+        .widget {
+            margin: 0 2.25% 16px;
+            width: 45%;
+            float: left;
+            clear: left;
+        }
+        .widget:nth-of-type(2n) {
+            float: right;
+            clear: right;
+        }
+    }
 
     /* ==========================================================================
        Page.php
@@ -129,11 +174,14 @@
      */
     .player {
         figure {
-            margin-right: 10px;
+            margin-right: 16px;
             width: 47.5%;
         }
     }
-    .player__personal-facts {
+    .player__facts {
+        width: 47.5%;
+    }
+    .player__personal-info {
         width: 47.5%;
     }
     
@@ -148,6 +196,11 @@
 
     .sidebar {
         width: 28.75%;
+    }
+    .widget {
+        width: 100%;
+        float: none;
+        clear: none;
     }
 
     /* Undermeny */

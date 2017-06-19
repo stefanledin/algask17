@@ -7,8 +7,10 @@
                     <figure class="article__featured-image-wrapper">
                         <?php
                         echo rwp_img( get_post_thumbnail_id(), array(
+                            'retina' => true,
                             'attributes' => array(
-                                'class' => 'article__featured-image'
+                                'class' => 'article__featured-image',
+                                'sizes' => '(min-width: 800px) 1120px, (min-width: 700px) 768px, (min-width: 500px) 667px, (min-width: 390px) 480px, 375px'
                             )
                         ) );
                         ?>
@@ -31,6 +33,87 @@
                     <?php else : ?>
                         <?php echo apply_filters( 'the_content', $content['main'] );?>
                     <?php endif; ?>
+                    
+                    <?php 
+                    $gameQuery = new WP_Query( array(
+                        'connected_type' => 'games_to_posts',
+                        'connected_items' => get_queried_object()
+                    ) );
+                    if ( $gameQuery->have_posts() ) {
+                        p2p_type( 'players_to_games' )->each_connected( $gameQuery );
+                        while ( $gameQuery->have_posts() ) {
+                            $gameQuery->the_post();
+                            $scorers = get_field('goals', $post->ID);
+                            $cards = get_field('cards', $post->ID);
+                            $stars = get_field('tre_stjarnor', $post->ID);
+                            $team = '';
+                            foreach( $post->connected as $post) {
+                                setup_postdata( $post );
+                                $is_active = get_post_meta( $post->ID, 'aktiv', true );
+                                if ( $is_active ) :
+                                    $team .= '<a href="'.get_permalink().'">';
+                                endif;
+                                    $team .= get_the_title();
+                                if ( $is_active ) :
+                                    $team .= '</a>';
+                                endif;
+                                $team .= '<br>';
+                                wp_reset_postdata();
+                            }
+                        }
+                        wp_reset_postdata();
+                    }
+                    ?>
+                    <aside class="article__infobox-area">
+                        <?php if ( isset( $team ) ) : ?>
+                            <div class="widget widget--grey">
+                                <div class="widget__inner">
+                                    <?php echo $team; ?>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+
+                        <?php if ( isset( $scorers ) ) : ?>
+                            <div class="widget widget--grey">
+                                <div class="widget__inner">
+                                    <?php
+                                    foreach ($scorers as $scorer) {
+                                        $player = get_post($scorer['player'][0]);
+                                        $is_active = get_post_meta( $player->ID, 'aktiv', true );
+                                        $output = ($scorer['goal']) ? $scorer['goal'] . ' ' : '';
+                                            if ( $is_active ) :
+                                                $output .= '<a href="'.get_permalink($player->ID).'">' . $player->post_title . '</a>';
+                                            else :
+                                                $output .= $player->post_title;
+                                            endif;
+                                        $output .= ($scorer['matchminut']) ? ' (' . $scorer['matchminut'] . ')' : '';
+                                        echo $output . '<br>';
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+                        
+                        <?php if ( isset($cards[0]) ) : ?>
+                            <div class="widget widget--grey">
+                                <div class="widget__inner">
+                                    <span class="widget__title h3">Kort</span>
+                                    <?php
+                                    foreach ( $cards as $card ) {
+                                        $player = get_post($card['player'][0]);
+                                        $is_active = get_post_meta( $player->ID, 'aktiv', true );
+                                        if ( $is_active ) :
+                                            echo (($card['color'] == 'yellow') ? 'Gult: ' : 'Rött: ') . ' <a href="'.get_permalink($player->ID).'">' . $player->post_title . '</a><br>';
+                                        else :
+                                            echo (($card['color'] == 'yellow') ? 'Gult: ' : 'Rött: ') . $player->post_title . '<br>';
+                                        endif;
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+                    </aside>
+
                     <footer class="article__footer">
                         <ul class="article__metadata">
                             <li>

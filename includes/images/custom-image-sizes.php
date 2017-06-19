@@ -19,9 +19,9 @@ add_image_size( 'size667@2x', 1334 );
 add_image_size( 'size768', 768 );
 add_image_size( 'size768@2x', 1536 );
 
-// 1024 (2048)
+// 1120 (2240)
 // [Large]
-add_image_size( 'large@2x', 2048 );
+add_image_size( 'large@2x', 2240 );
 
 // Boilerplate
 // add_image_size( $name, $width, $height, $crop );

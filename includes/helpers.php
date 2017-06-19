@@ -39,6 +39,10 @@ function get_permalink_by_path ( $path ) {
  * Returnerar ID:t till föräldersidan i trädet.
  */
 function get_page_parent_id( $post ) {
+    if ( get_post_type() == 'spelare' ) {
+        $team = get_the_terms( $post, 'lag' );
+        $post = get_field('custom_parent_page', $team[0]);
+    }
     $post_ancestors = get_post_ancestors( $post );
     $parent_id = end( $post_ancestors );
     if ( ! $parent_id ) {

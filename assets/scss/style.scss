@@ -41,8 +41,33 @@ img {
     display: block;
 }
 
+ul {
+    padding-left: 20px;
+}
+
+
+/**
+ * Tabeller
+ */
+table {
+    margin: 0 0 20px 0;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+thead {
+    background: $blue;
+    color: white;
+    border-bottom: 1px solid $blue;
+}
+tbody tr {
+    background: white;
+    &:nth-child(2n) {
+        background: $grey;
+    }
+}
 td, th {
-    padding: 0 5px 0 0;
+    padding: 5px;
 }
 th {
     text-align: left;
@@ -98,21 +123,22 @@ h3, .h3 {
 .wf-oswald-n7-active {
     h1, .h1 {
         font-family: 'Oswald';
-        font-size: 2.4em;
+        font-size: 38px;
         font-weight: 700;
     }
     h2, .h2 {
         font-family: 'Oswald';
-        font-weight: 500;
+        font-weight: 700;
     }
     h3, .h3 {
         font-family: 'Oswald';
-        font-weight: 500;
+        font-weight: 700;
     }
 }
 
 .text-center {
     text-align: center;
+    display: block;
 }
 
 /**
@@ -185,6 +211,7 @@ a.button,
 }
 
 main {
+    margin-bottom: 16px;
     overflow: hidden;
     background: white;
 }
@@ -514,7 +541,12 @@ body.mobile-menu-is-open {
     padding-bottom: 1em;
 }
 .article__inner {
-    padding: 0 1em;
+    padding: 0 16px;
+}
+.article__infobox-area {
+    .widget {
+        width: 100%;
+    }
 }
 .article__footer {
     border-top: 1px solid rgba(0,0,0,.2);
@@ -535,6 +567,10 @@ body.mobile-menu-is-open {
             margin-right: .5em;
         }
     }
+}
+
+.wp-caption {
+    width: 100% !important;
 }
 
 /* ==========================================================================
@@ -602,7 +638,7 @@ body.mobile-menu-is-open {
  */
 .player {
     figure {
-        margin: 0;
+        margin: 0 0 16px 0;
         img {
             margin: 0 auto;
             display: block;
@@ -676,7 +712,7 @@ body.mobile-menu-is-open {
 
 /* Block */
 .widget {
-    margin-bottom: 1em;
+    margin-bottom: 16px;
     overflow: hidden;
     font-size: 14px;
     img {
@@ -689,8 +725,17 @@ body.mobile-menu-is-open {
 /* Elements */
 .widget__title {
     margin: 0 0 16px;
-    font-size: 24px;
+    font-size: 21px;
+    font-weight: bold;
     text-align: center;
+    display: block;
+}
+.wf-oswald-n7-active {
+    .widget__title {
+        font-size: 24px;
+        font-family: 'Oswald';
+        font-weight: 700;
+    }
 }
 .widget__inner {
     @extend .inner;
@@ -724,7 +769,7 @@ body.mobile-menu-is-open {
  * Game widget
  */
 .game-widget__league-name {
-    margin-bottom: .5em;
+    margin-bottom: 8px;
     text-align: center;
     display: block;
 }
@@ -757,6 +802,24 @@ body.mobile-menu-is-open {
     float: none;
     clear: both;
     text-align: center;
+}
+
+/**
+ * Sökwidget
+ */
+.search-form {
+    display: flex;
+}
+.search-form__field {
+    flex: 3;
+    padding: 8px;
+    border: 1px solid $grey;
+    &:focus {
+        outline: 1px solid $blue;
+    }
+}
+.search-form__submit {
+    flex: 1;
 }
 
 @import 'mq';

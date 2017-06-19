@@ -1,4 +1,19 @@
 <?php
+
+/**
+ * Skriver ut sidtiteln på nyhetsarkiv-sidan
+ */
+add_action( 'print_archive_title', function() {
+    if ( isset($_GET['search']) ) {
+        echo 'Sökresultat för: ' . $_GET['search'];
+    } else {
+        the_archive_title();
+    }
+    if ( $paged = get_query_var( 'paged' ) ) {
+        echo ' - sida ' . $paged;
+    }
+} );
+
 /**
  * Remove emojis
  */
