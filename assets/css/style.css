@@ -849,6 +849,9 @@ body.mobile-menu-is-open #canvas-content-overlay {
 .article-list__article p:last-of-type {
   margin-bottom: 0; }
 
+.article-list__article img {
+  margin-top: 16px; }
+
 .article-list__article__title {
   margin: 0;
   line-height: 1; }
