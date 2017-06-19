@@ -210,6 +210,11 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
 
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
 /**
  * Helpers
  */
@@ -539,6 +544,7 @@ body.mobile-menu-is-open {
 /* Breadcrumbs */
 .breadcrumbs {
     margin-top: 10px;
+    width: 100%;
     ul {
         margin: 0;
         padding: 0;
