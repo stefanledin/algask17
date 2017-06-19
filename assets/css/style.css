@@ -854,7 +854,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
 
 .article-list__article__title {
   margin: 0;
-  line-height: 1; }
+  line-height: 1.2; }
   .article-list__article__title a {
     color: black;
     text-decoration: none; }

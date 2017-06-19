@@ -192,6 +192,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/player_anonymous.jpg": {
+		"ft": 16384,
+		"iS": 18932,
+		"oA": 0,
+		"oAP": "\/assets\/img\/player_anonymous.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/share.png": {
+		"ft": 32768,
+		"iS": 727985,
+		"oA": 0,
+		"oAP": "\/assets\/img\/share.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/index.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -314,6 +335,12 @@
 		"oAP": "\/includes\/menus.php",
 		"oF": 0
 		},
+	"\/includes\/posts-to-posts.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/posts-to-posts.php",
+		"oF": 0
+		},
 	"\/includes\/shortcodes.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -340,6 +367,12 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/page-algajokern.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-algajokern.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -350,6 +383,42 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/partials\/section-breadcrumbs.php",
+		"oF": 0
+		},
+	"\/partials\/widget_hard_coded.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_hard_coded.php",
+		"oF": 0
+		},
+	"\/partials\/widget_hardcoded_joker.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_hardcoded_joker.php",
+		"oF": 0
+		},
+	"\/partials\/widget_hardcoded_next_game.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_hardcoded_next_game.php",
+		"oF": 0
+		},
+	"\/partials\/widget_hardcoded_prev_game.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_hardcoded_prev_game.php",
+		"oF": 0
+		},
+	"\/partials\/widget_image.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_image.php",
+		"oF": 0
+		},
+	"\/partials\/widget_title_image_text.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/widget_title_image_text.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
