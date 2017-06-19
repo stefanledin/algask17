@@ -21,6 +21,8 @@ require 'includes/filters.php';
 
 require 'includes/actions.php';
 
+require 'includes/posts-to-posts.php';
+
 require 'includes/menus.php';
 
 require 'includes/helpers.php';

@@ -11,7 +11,7 @@ $game = get_posts( array(
     'meta_key' => 'datum',
     'meta_type' => 'DATE',
     'orderby' => 'meta_value',
-    'order' => 'ASC',
+    'order' => 'DESC',
     'meta_query' => array(
         array(
             'key' => 'datum',
