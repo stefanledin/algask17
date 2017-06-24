@@ -161,5 +161,12 @@ function create_post_types () {
             ),
         )
     );
+
+    register_post_type( 'jokernummer', array(
+        'label' => 'Jokernummer',
+        'public' => true,
+        'menu_icon' => 'dashicons-tickets-alt',
+        'supports' => array('title')
+    ) );
 }
 add_action( 'init', 'create_post_types' );
