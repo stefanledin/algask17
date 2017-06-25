@@ -626,6 +626,10 @@ main {
 .has-shadow {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); }
 
+.aligncenter {
+  display: block;
+  margin: 0 auto; }
+
 /**
  * Helpers
  */
@@ -845,9 +849,12 @@ body.mobile-menu-is-open #canvas-content-overlay {
 .article-list__article p:last-of-type {
   margin-bottom: 0; }
 
+.article-list__article img {
+  margin-top: 16px; }
+
 .article-list__article__title {
   margin: 0;
-  line-height: 1; }
+  line-height: 1.2; }
   .article-list__article__title a {
     color: black;
     text-decoration: none; }

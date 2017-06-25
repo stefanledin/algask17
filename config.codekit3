@@ -192,6 +192,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/player_anonymous.jpg": {
+		"ft": 16384,
+		"iS": 18932,
+		"oA": 0,
+		"oAP": "\/assets\/img\/player_anonymous.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/share.png": {
+		"ft": 32768,
+		"iS": 727985,
+		"oA": 0,
+		"oAP": "\/assets\/img\/share.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/index.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -221,42 +242,6 @@
 		"oF": 1,
 		"sC": 0,
 		"tS": 0
-		},
-	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_import-now.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_import-now.scssc",
-		"oF": 0
-		},
-	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_normalize-mixin.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_normalize-mixin.scssc",
-		"oF": 0
-		},
-	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_variables.scssc",
-		"oF": 0
-		},
-	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_vertical-rhythm.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_vertical-rhythm.scssc",
-		"oF": 0
-		},
-	"\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/style.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/style.scssc",
-		"oF": 0
-		},
-	"\/assets\/scss\/.sass-cache\/665e91b8ccc113a110ab1dae0e43e0b349f29bf7\/_normalize.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/.sass-cache\/665e91b8ccc113a110ab1dae0e43e0b349f29bf7\/_normalize.scssc",
-		"oF": 0
 		},
 	"\/assets\/scss\/mq.scss": {
 		"aP": 0,
@@ -350,6 +335,12 @@
 		"oAP": "\/includes\/menus.php",
 		"oF": 0
 		},
+	"\/includes\/posts-to-posts.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/posts-to-posts.php",
+		"oF": 0
+		},
 	"\/includes\/shortcodes.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -375,6 +366,12 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/page-algajokern.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-algajokern.php",
+		"oF": 0
 		},
 	"\/page.php": {
 		"ft": 8192,

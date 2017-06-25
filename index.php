@@ -22,7 +22,7 @@ get_header(); ?>
                     </header>
                     <?php if ( $i == 0 ) : ?>
                         <?php the_post_thumbnail( ); ?>
-                        <?php the_content(); ?>
+                        <?php the_content('Läs mer »'); ?>
                     <?php endif; ?>
                 </div>
             </article>
