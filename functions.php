@@ -28,3 +28,7 @@ require 'includes/menus.php';
 require 'includes/helpers.php';
 
 require 'includes/shortcodes.php';
+
+if ( function_exists('acf_add_options_page') ) {
+    acf_add_options_page('Sajtinställningar');
+}
