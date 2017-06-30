@@ -466,6 +466,11 @@ td, th {
 th {
   text-align: left; }
 
+.tablepress tfoot th,
+.tablepress thead th {
+  background: #2d68b2;
+  color: white; }
+
 /**
  * Färger
  */

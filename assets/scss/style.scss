@@ -72,6 +72,11 @@ td, th {
 th {
     text-align: left;
 }
+.tablepress tfoot th,
+.tablepress thead th {
+    background: $blue;
+    color: white;
+}
 
 /**
  * Färger
