@@ -74,8 +74,8 @@ th {
 }
 .tablepress tfoot th,
 .tablepress thead th {
-    background: $blue;
-    color: white;
+    background: $blue !important;
+    color: white !important;
 }
 
 /**
