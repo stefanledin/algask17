@@ -810,6 +810,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
   .secondary-menu__item:last-child:after {
     content: ''; }
   .secondary-menu__item a {
+    padding: 0 3px;
     text-decoration: none; }
 
 /* ==========================================================================
@@ -945,15 +946,13 @@ body.mobile-menu-is-open #canvas-content-overlay {
 /* Spelarlista */
 .player-list {
   margin: 0;
-  padding: 0; }
-  .player-list:after {
-    content: "";
-    display: table;
-    clear: both; }
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .player-list__item {
   width: 50%;
-  float: left;
   display: block; }
   .player-list__item figure {
     margin: 0;
@@ -1126,7 +1125,13 @@ body.mobile-menu-is-open #canvas-content-overlay {
     clear: left; }
     .widget:nth-of-type(2n) {
       float: right;
-      clear: right; } }
+      clear: right; }
+  /* ==========================================================================
+       Lagsida
+       ========================================================================== */
+  /* Spelarlista */
+  .player-list__item {
+    width: 33.33333%; } }
 
 @media (min-width: 767px) {
   /* ==========================================================================

@@ -455,6 +455,7 @@ body.mobile-menu-is-open {
         content: '';
     }
     a {
+        padding: 0 3px;
         text-decoration: none;
     }
 }
@@ -623,11 +624,13 @@ body.mobile-menu-is-open {
 .player-list {
     margin: 0;
     padding: 0;
-    @include clearfix;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .player-list__item {
     width: 50%;
-    float: left;
+    //float: left;
     display: block;
     figure {
         margin: 0;
