@@ -810,6 +810,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
   .secondary-menu__item:last-child:after {
     content: ''; }
   .secondary-menu__item a {
+    padding: 0 3px;
     text-decoration: none; }
 
 /* ==========================================================================
