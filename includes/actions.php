@@ -1,4 +1,14 @@
 <?php
+add_action( 'parse_query', function( $query ) {
+    if ( is_single() ) {
+        $query->query['rwp_settings'] = array(
+            'attributes' => array(
+                'sizes' => '(min-width: 632px) 667px, (min-width: 540px) 568px, (min-width: 430px) 480px, 375px'
+            )
+        );
+    }
+    return $query;
+} );
 
 /**
  * Skriver ut sidtiteln på nyhetsarkiv-sidan

@@ -8,7 +8,13 @@ get_header(); ?>
     <div class="article-list has-shadow">
         <?php
         $latest_news = get_posts( array(
-            'posts_per_page' => 5
+            'posts_per_page' => 5,
+            'rwp_settings' => array(
+                'sizes' => array('thumbnail', 'size480', 'medium', 'size667', 'size768'),
+                'attributes' => array(
+                    'sizes' => '(min-width: 1070px) 768px, (min-width: 920px) 667px, (min-width: 783px) 568px, (min-width: 767px) 480px, (min-width: 735px) 768px, (min-width: 630px) 667px, (min-width: 540px) 568px, (min-width: 430px) 480px, 375px'
+                )
+            )
         ) );
         foreach ( $latest_news as $i => $post ) : setup_postdata( $post );
         ?>
