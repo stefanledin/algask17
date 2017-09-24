@@ -1027,7 +1027,7 @@ body.mobile-menu-is-open #canvas-content-overlay {
   overflow: hidden;
   font-size: 14px; }
   .widget img {
-    margin: 0 0 8px 0; }
+    margin: 0 auto 8px auto; }
   .widget p {
     margin: 0 0 16px 0; }
 
@@ -1114,6 +1114,16 @@ body.mobile-menu-is-open #canvas-content-overlay {
 
 .search-form__submit {
   flex: 1; }
+
+/**
+ * Jokerwidget
+ */
+.widget__joker .widget__title {
+  margin-bottom: 0; }
+
+.widget__joker a {
+  text-decoration: none;
+  color: #0A3B7B; }
 
 @media (min-width: 500px) {
   /* ==========================================================================
@@ -1268,3 +1278,5 @@ body.mobile-menu-is-open #canvas-content-overlay {
   /* Undermeny */
   .sub-menu {
     display: block; } }
+
+/*# sourceMappingURL=style.css.map */
