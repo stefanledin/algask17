@@ -7,9 +7,10 @@
 		"uuidString": "5E11F861-038A-48BB-B008-9804B0B05076"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
@@ -50,6 +51,7 @@
 		"oS": 3
 		},
 	"\/algajokern\/fonts\/bootstrap\/glyphicons-halflings-regular.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/algajokern\/fonts\/bootstrap\/glyphicons-halflings-regular.eot",
@@ -66,24 +68,28 @@
 		"prP": 0
 		},
 	"\/algajokern\/fonts\/bootstrap\/glyphicons-halflings-regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/algajokern\/fonts\/bootstrap\/glyphicons-halflings-regular.ttf",
 		"oF": 0
 		},
 	"\/algajokern\/fonts\/bootstrap\/glyphicons-halflings-regular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/algajokern\/fonts\/bootstrap\/glyphicons-halflings-regular.woff",
 		"oF": 0
 		},
 	"\/algajokern\/fonts\/bootstrap\/glyphicons-halflings-regular.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/algajokern\/fonts\/bootstrap\/glyphicons-halflings-regular.woff2",
 		"oF": 0
 		},
 	"\/algajokern\/images\/.keep": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/algajokern\/images\/.keep",
@@ -109,6 +115,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/algajokern\/images\/algajokern-text-logo.png": {
+		"ft": 32768,
+		"iS": 7816,
+		"oA": 0,
+		"oAP": "\/algajokern\/images\/algajokern-text-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/algajokern\/images\/algajokern-text-logo.svg": {
 		"ft": 2097152,
@@ -166,6 +183,7 @@
 	"\/algajokern\/images\/example-swish.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/algajokern\/images\/example-swish.jpg",
 		"oF": 0,
@@ -176,6 +194,7 @@
 	"\/algajokern\/images\/share.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/algajokern\/images\/share.jpg",
 		"oF": 0,
@@ -382,432 +401,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_alerts.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_alerts.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_background-variant.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_background-variant.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_border-radius.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_border-radius.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_buttons.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_buttons.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_center-block.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_center-block.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_clearfix.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_clearfix.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_forms.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_forms.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_gradients.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_gradients.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_grid-framework.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_grid-framework.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_grid.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_grid.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_hide-text.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_hide-text.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_image.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_image.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_labels.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_labels.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_list-group.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_list-group.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_nav-divider.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_nav-divider.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_nav-vertical-align.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_nav-vertical-align.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_opacity.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_opacity.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_pagination.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_pagination.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_panels.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_panels.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_progress-bar.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_progress-bar.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_reset-filter.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_reset-filter.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_reset-text.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_reset-text.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_resize.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_resize.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_responsive-visibility.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_responsive-visibility.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_size.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_size.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_tab-focus.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_tab-focus.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_table-row.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_table-row.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_text-emphasis.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_text-emphasis.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_text-overflow.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_text-overflow.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_vendor-prefixes.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/32cc9bb1172a2ec3b7d87853c7495ea54ad9bbad\/_vendor-prefixes.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/59a0eaf9933290c9c8db0d164461e5db3fb2af78\/_bootstrap.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/59a0eaf9933290c9c8db0d164461e5db3fb2af78\/_bootstrap.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/59a0eaf9933290c9c8db0d164461e5db3fb2af78\/style.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/59a0eaf9933290c9c8db0d164461e5db3fb2af78\/style.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_alerts.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_alerts.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_badges.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_badges.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_breadcrumbs.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_breadcrumbs.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_button-groups.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_button-groups.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_buttons.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_buttons.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_carousel.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_carousel.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_close.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_close.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_code.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_code.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_component-animations.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_component-animations.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_dropdowns.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_dropdowns.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_forms.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_forms.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_glyphicons.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_glyphicons.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_grid.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_grid.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_input-groups.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_input-groups.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_jumbotron.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_jumbotron.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_labels.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_labels.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_list-group.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_list-group.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_media.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_media.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_mixins.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_mixins.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_modals.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_modals.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_navbar.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_navbar.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_navs.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_navs.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_normalize.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_normalize.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_pager.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_pager.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_pagination.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_pagination.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_panels.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_panels.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_popovers.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_popovers.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_print.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_print.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_progress-bars.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_progress-bars.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_responsive-embed.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_responsive-embed.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_responsive-utilities.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_responsive-utilities.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_scaffolding.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_scaffolding.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_tables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_tables.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_thumbnails.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_thumbnails.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_tooltip.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_tooltip.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_type.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_type.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_utilities.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_utilities.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_variables.scssc",
-		"oF": 0
-		},
-	"\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_wells.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/algajokern\/scss\/.sass-cache\/72cd7d1a43b59a6f99bd25c993a59bf6fd759481\/_wells.scssc",
-		"oF": 0
 		},
 	"\/algajokern\/scss\/_bootstrap-compass.scss": {
 		"aP": 0,
@@ -1785,6 +1378,7 @@
 		"uL": 1
 		},
 	"\/archive.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/archive.php",
@@ -1811,12 +1405,14 @@
 		"oS": 0
 		},
 	"\/assets\/css\/style.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/style.css.map",
 		"oF": 0
 		},
 	"\/assets\/img\/.gitkeep": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/img\/.gitkeep",
@@ -1940,6 +1536,7 @@
 	"\/assets\/img\/player_anonymous.jpg": {
 		"ft": 16384,
 		"iS": 18932,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/player_anonymous.jpg",
 		"oF": 0,
@@ -1958,13 +1555,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/touch-icon.png": {
+		"ft": 32768,
+		"iS": 49349,
+		"oA": 0,
+		"oAP": "\/assets\/img\/touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/index.php",
 		"oF": 0
 		},
 	"\/assets\/js\/.gitkeep": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/js\/.gitkeep",
@@ -1991,42 +1601,42 @@
 		"tS": 0
 		},
 	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_import-now.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_import-now.scssc",
 		"oF": 0
 		},
 	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_normalize-mixin.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_normalize-mixin.scssc",
 		"oF": 0
 		},
 	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_variables.scssc",
 		"oF": 0
 		},
 	"\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_vertical-rhythm.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/.sass-cache\/563a83f3e67c6619fb2bb28dfd7fd30fba544444\/_vertical-rhythm.scssc",
 		"oF": 0
 		},
-	"\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/mq.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/mq.scssc",
-		"oF": 0
-		},
 	"\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/scss\/.sass-cache\/5c68a1215a74124e493a15ac19a22d3a623c59d7\/style.scssc",
 		"oF": 0
 		},
 	"\/assets\/scss\/.sass-cache\/665e91b8ccc113a110ab1dae0e43e0b349f29bf7\/_normalize.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/.sass-cache\/665e91b8ccc113a110ab1dae0e43e0b349f29bf7\/_normalize.scssc",
@@ -2059,84 +1669,98 @@
 		"uL": 1
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
 		"oF": 0
 		},
 	"\/includes\/actions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/actions.php",
 		"oF": 0
 		},
 	"\/includes\/custom-post-types.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/custom-post-types.php",
 		"oF": 0
 		},
 	"\/includes\/enqueue-scripts-styles.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/enqueue-scripts-styles.php",
 		"oF": 0
 		},
 	"\/includes\/filters.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/filters.php",
 		"oF": 0
 		},
 	"\/includes\/helpers.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/helpers.php",
 		"oF": 0
 		},
 	"\/includes\/images\/custom-image-sizes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/images\/custom-image-sizes.php",
 		"oF": 0
 		},
 	"\/includes\/images\/images.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/images\/images.php",
 		"oF": 0
 		},
 	"\/includes\/menus.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/menus.php",
 		"oF": 0
 		},
 	"\/includes\/posts-to-posts.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/posts-to-posts.php",
 		"oF": 0
 		},
 	"\/includes\/shortcodes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/shortcodes.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
@@ -2148,6 +1772,71 @@
 		"oAP": "\/build\/node_modules",
 		"oF": 0
 		},
+	"\/node_modules\/normalize-scss\/sass\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/node_modules\/normalize-scss\/css\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/node_modules\/normalize-scss\/sass\/normalize\/_import-now.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/node_modules\/normalize-scss\/sass\/css\/_import-now.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/node_modules\/normalize-scss\/sass\/normalize\/_normalize-mixin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/node_modules\/normalize-scss\/sass\/css\/_normalize-mixin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/node_modules\/normalize-scss\/sass\/normalize\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/node_modules\/normalize-scss\/sass\/css\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/node_modules\/normalize-scss\/sass\/normalize\/_vertical-rhythm.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/node_modules\/normalize-scss\/sass\/css\/_vertical-rhythm.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -2157,72 +1846,84 @@
 		"oS": 1
 		},
 	"\/page-algajokern.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-algajokern.php",
 		"oF": 0
 		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/partials\/section-breadcrumbs.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/partials\/section-breadcrumbs.php",
 		"oF": 0
 		},
 	"\/partials\/widget_hard_coded.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/widget_hard_coded.php",
 		"oF": 0
 		},
 	"\/partials\/widget_hardcoded_joker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/widget_hardcoded_joker.php",
 		"oF": 0
 		},
 	"\/partials\/widget_hardcoded_next_game.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/widget_hardcoded_next_game.php",
 		"oF": 0
 		},
 	"\/partials\/widget_hardcoded_prev_game.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/widget_hardcoded_prev_game.php",
 		"oF": 0
 		},
 	"\/partials\/widget_image.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/widget_image.php",
 		"oF": 0
 		},
 	"\/partials\/widget_title_image_text.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/widget_title_image_text.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
 	"\/single-spelare.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single-spelare.php",
 		"oF": 0
 		},
 	"\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single.php",
@@ -2239,6 +1940,7 @@
 		"oS": 0
 		},
 	"\/team.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/team.php",
@@ -2253,7 +1955,8 @@
 	"creationDate": 515157678,
 	"displayValue": "algask17",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ive"
+	"iconImageName": "meme-ive",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2261,6 +1964,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2789,6 +2493,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -2820,6 +2528,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2853,9 +2565,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2885,6 +2597,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2894,14 +2610,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4005,7 +3713,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -4038,6 +3747,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -4049,6 +3759,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -4079,7 +3790,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -4111,13 +3823,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -4126,7 +3838,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -4146,7 +3859,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -4174,7 +3888,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
